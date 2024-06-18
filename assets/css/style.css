@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../font/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-light;
+    src: url(../font/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Meduim;
+    src: url(../font/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-MediumItalic;
+    src: url(../font/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-BoldItalic;
+    src: url(../font/Roboto-BoldItalic.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header{
+    background-image: url(../img/navbartravelbg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 587px;
+    padding: 10px 30px;
+}
+
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-content ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    padding: 0px 10px;
+
+
+}
+
+.navbar-content ul li a{
+    color: #FFA500;
+    font-family: Roboto-Meduim;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+}
+
+
+.navbar-content ul li:nth-child(1){
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #0333F1;
+}
+
+.headerinfermation{
+    display: flex;
+    margin: 30px 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerinfermation .spanP{
+    font-family: Roboto-Meduim;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #ffff;
+    margin: 20px 0px;
+}
+
+span{
+  color: #FFA500;
+}
+
+.headerinfermation .p2navbarcontnet{
+    font-family: Roboto-Meduim;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 89px;
+    background-color: red;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    padding: 30px 30px;
+    color: #fff;
+
+}

@@ -37,6 +37,10 @@
     list-style-type: none;
 }
 
+body{
+    background-color: #FEFEFE;
+}
+
 header{
     background-image: url(../img/navbartravelbg.svg);
     background-repeat: no-repeat;
@@ -113,7 +117,8 @@ span{
 
 
 .headerinfermation button{
-    padding: 20px 30px;
+    padding: 20px 40px;
+    border-radius: 10px;
     font-family: Roboto-Meduim;
     cursor: pointer;
     background-color: #0333F1;
@@ -178,6 +183,9 @@ span{
 
 .content_1 button{
     margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
     padding: 15px 40px;
     background-color: #0333F1;
     color: #fff;
@@ -192,6 +200,7 @@ span{
     margin-left: 50px;
     align-items: center;
     margin-top: 40px;
+    padding-bottom: 30px;
     width: 100%;
     max-width: 400px;
     background-color: #fff;
@@ -525,3 +534,809 @@ span{
     border-radius: 8px;
 
 }
+
+main{
+    display: flex;
+    gap: 30px;
+}
+
+.container2_content1{
+    margin-top: 50px;
+    background-color:#FFFFFF;
+    height: fit-content;
+    box-shadow: 0px 0px 3px;
+}
+
+.content1text{
+    position: relative;   
+    padding: 20px 30px;
+}
+
+
+
+.content1text .child1{
+    font-family: Roboto-light;
+    width: 100%;
+    max-width: 284px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+    color: #000000;
+
+}
+
+.content1text .child1::before{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    content: "";
+    display: inline-block;
+    background-color: #FFA500;
+    width: 6px;
+    height: 32px;
+}
+
+
+.content1text .child2 {
+    font-family: Roboto-Meduim;
+    font-weight: 600;
+    font-size: 31.64px;
+    width: 100%;
+    max-width: 700px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+
+.content1text .child3{
+    font-family: Roboto-Meduim;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    width: 100%;
+    max-width: 686px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.content1Icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.content1Icon p{
+    font-family: Roboto-Meduim;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #000000;
+}
+
+.content1Icon i{
+    color: #FFA500;
+}
+
+.content1Icon .location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.content1Icon .comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container2_content2{
+    margin-top: 40px;
+    width: 100%;
+    max-width: 374.5px;
+    display: flex;
+    gap: 20px;
+    
+    
+}
+
+.container2_content2_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 3px;
+    height: fit-content;
+}
+
+
+
+
+.content2text{
+    position: relative;
+    padding: 20px 30px;
+    
+}
+
+.content2text .content2_child1{
+    color: #000000;
+    font-family: Roboto-light;
+    width: 100%;
+    max-width: 331px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33.81px;
+}
+
+
+.content2text .content2_child1::before{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    content: "";
+    display: inline-block;
+    background-color: #FFA500;
+    width: 6px;
+    height: 32px;
+
+}
+
+
+.content2text .content2_child1{
+    color: #000000;
+    font-family: Roboto-light;
+    width: 100%;
+    max-width: 331px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 33.81px;
+}
+
+
+.content2text .content2_child2{
+    color: #000000;
+    font-family: Roboto-Meduim;
+    width: 100%;
+    max-width: 331px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-size: 32px;
+    line-height: 46.64px;
+}
+
+.content2Icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content2_location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.content2_comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.container2_content2_1 i{
+    color: #FFA500;
+}
+
+
+.content2Icon p{
+    font-family: Roboto-Meduim;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #000000;
+    
+}
+
+/* cotainer content-3 */
+
+
+.container2_content3{
+    margin-top: 50px;
+    background-color:#FFFFFF;
+    height: fit-content;
+    box-shadow: 0px 0px 3px;
+}
+
+.content3text{
+    position: relative;   
+    padding: 20px 30px;
+}
+
+
+
+.content3text .content3_child1{
+    font-family: Roboto-light;
+    width: 100%;
+    max-width: 284px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+    color: #000000;
+
+}
+
+.content3text .content3_child1::before{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    content: "";
+    display: inline-block;
+    background-color: #FFA500;
+    width: 6px;
+    height: 32px;
+}
+
+
+.content3text .content3_child2 {
+    font-family: Roboto-Meduim;
+    font-weight: 600;
+    font-size: 31.64px;
+    width: 100%;
+    max-width: 700px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+
+.content3text .content3_child3{
+    font-family: Roboto-Meduim;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    width: 100%;
+    max-width: 686px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.content3Icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.content3Icon p{
+    font-family: Roboto-Meduim;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #000000;
+}
+
+.content3Icon i{
+    color: #FFA500;
+}
+
+.content3Icon .content3_location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.content3Icon .content3_comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* container2 content4 */
+
+
+
+.container2_content4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-image: url(../img/shpingCreditCart.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 777px;
+    height: 100%;
+    max-height: 485px;
+
+}
+
+.container2_content4 .container2_content4text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.container2_content4text p{
+    font-family: Roboto-Meduim;
+    width: 100%;
+    max-width: 746px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.container2_content4text button{
+    font-family: Roboto-Meduim;
+    padding: 15px 50px;
+    margin-top: 30px;
+    background-color: #0336FF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+
+
+/* container2 content5 */
+
+.container2_content5{
+    margin-top: 40px;
+    width: 100%;
+    max-width: 374.5px;
+    display: flex;
+    gap: 20px;
+    
+    
+}
+
+.container2_content5In{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 3px;
+    height: fit-content;
+}
+
+
+
+
+.content5text{
+    position: relative;
+    padding: 20px 30px;
+   
+    
+}
+
+.content5text .content5_child1{
+    color: #000000;
+    font-family: Roboto-light;
+    width: 100%;
+    max-width: 331px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33.81px;
+}
+
+
+.content5text .content5_child1::before{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    content: "";
+    display: inline-block;
+    background-color: #FFA500;
+    width: 6px;
+    height: 32px;
+
+}
+
+
+.content5text .content5_child2{
+    color: #000000;
+    font-family: Roboto-light;
+    width: 100%;
+    max-width: 331px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 33.81px;
+}
+
+
+.content5text .content5_child2{
+    color: #000000;
+    font-family: Roboto-Meduim;
+    width: 100%;
+    max-width: 331px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-size: 32px;
+    line-height: 46.64px;
+}
+
+.content5Icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content5_location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.content5_comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.container2_content5In i{
+    color: #FFA500;
+}
+
+
+.content5Icon p{
+    font-family: Roboto-Meduim;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #000000;
+    
+}
+
+
+
+/* container2 content6 */
+
+.container2_content6{
+    margin-top: 40px;
+    width: 100%;
+    max-width: 374.5px;
+    display: flex;
+    gap: 20px;
+    
+    
+}
+
+.container2_content6In{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 3px;
+    height: fit-content;
+}
+
+
+
+
+.content6text{
+    position: relative;
+    padding: 20px 30px;
+   
+    
+}
+
+.content6text .content6_child1{
+    color: #000000;
+    font-family: Roboto-light;
+    width: 100%;
+    max-width: 331px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33.81px;
+}
+
+
+.content6text .content6_child1::before{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    content: "";
+    display: inline-block;
+    background-color: #FFA500;
+    width: 6px;
+    height: 32px;
+
+}
+
+
+.content6text .content6_child2{
+    color: #000000;
+    font-family: Roboto-light;
+    width: 100%;
+    max-width: 331px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 33.81px;
+}
+
+
+.content6text .content6_child2{
+    color: #000000;
+    font-family: Roboto-Meduim;
+    width: 100%;
+    max-width: 331px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-size: 32px;
+    line-height: 46.64px;
+}
+
+.content6Icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content6_location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.content6_comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.container2_content6In i{
+    color: #FFA500;
+}
+
+
+.content6Icon p{
+    font-family: Roboto-Meduim;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #000000;
+    
+}
+
+
+/* container2 content7 */
+
+.container2_content7{
+    margin-top: 50px;
+    background-color:#FFFFFF;
+    height: fit-content;
+    box-shadow: 0px 0px 3px;
+}
+
+.content7text{
+    position: relative;   
+    padding: 20px 30px;
+}
+
+
+
+.content7text .content7_child1{
+    font-family: Roboto-light;
+    width: 100%;
+    max-width: 284px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+    color: #000000;
+
+}
+
+.content7text .content7_child1::before{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    content: "";
+    display: inline-block;
+    background-color: #FFA500;
+    width: 6px;
+    height: 32px;
+}
+
+
+.content7text .content7_child2 {
+    font-family: Roboto-Meduim;
+    font-weight: 600;
+    font-size: 31.64px;
+    width: 100%;
+    max-width: 700px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+
+.content7text .content7_child3{
+    font-family: Roboto-Meduim;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    width: 100%;
+    max-width: 686px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.content7Icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.content7Icon p{
+    font-family: Roboto-Meduim;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #000000;
+}
+
+.content7Icon i{
+    color: #FFA500;
+}
+
+.content7Icon .content7_location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.content7Icon .content7_comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* container2 content8 */
+
+
+.container2_content8{
+    margin-top: 40px;
+    width: 100%;
+    max-width: 374.5px;
+    display: flex;
+    gap: 20px;
+    
+    
+}
+
+.container2_content8In{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 3px;
+    height: fit-content;
+    margin-bottom: 50px;
+}
+
+
+
+
+.content8text{
+    position: relative;
+    padding: 20px 30px;
+   
+    
+}
+
+.content8text .content8_child1{
+    color: #000000;
+    font-family: Roboto-light;
+    width: 100%;
+    max-width: 331px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33.81px;
+}
+
+
+.content8text .content8_child1::before{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    content: "";
+    display: inline-block;
+    background-color: #FFA500;
+    width: 6px;
+    height: 32px;
+
+}
+
+
+.content8text .content8_child2{
+    color: #000000;
+    font-family: Roboto-light;
+    width: 100%;
+    max-width: 331px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 33.81px;
+}
+
+
+.content8text .content8_child2{
+    color: #000000;
+    font-family: Roboto-Meduim;
+    width: 100%;
+    max-width: 331px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-size: 32px;
+    line-height: 46.64px;
+}
+
+.content8Icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content8_location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.content8_comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.content8Icon i{
+    color: #FFA500;
+}
+
+
+.content8Icon p{
+    font-family: Roboto-Meduim;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #000000;
+    
+}
+
+
+
+
+
+
+
+
+
+
+

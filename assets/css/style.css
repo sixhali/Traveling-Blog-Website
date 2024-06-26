@@ -46,7 +46,8 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 587px;
+    width: 100%;
+    height: fit-content;
     padding: 10px 30px;
 }
 
@@ -129,6 +130,8 @@ span{
 
 
 .headerinfermation .p3navbarcontnet{
+    position: relative;
+    top: 130px;
     margin-top: 30px;
     color: #fff;
     font-family: Roboto-Meduim;
@@ -138,12 +141,49 @@ span{
 .headerinfermation img {
     margin-top: 30px;
     cursor: pointer;
+    
+}
+
+.downarrowimg img{
+    position: relative;
+    top: 120px;
 }
 
 .locationimg img{
     position: relative;
-    bottom: 120px;
+    top: 20px;
     left: 600px;
+}
+
+
+/* navbar content ve header responsiv */
+@media (max-width:576px){
+
+    header{
+        max-width: 600px;
+        
+
+    }
+
+    .navbar-content ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+
+    
+    
+    }
+
+    .locationimg img{
+        position: relative;
+        top: 20px;
+        left: 200px;
+    }
+
+
+    
+
 }
 
 .content_1{
@@ -537,7 +577,7 @@ span{
 
 main{
     display: flex;
-    gap: 30px;
+    gap: 70px;
 }
 
 .container2_content1{
@@ -554,7 +594,7 @@ main{
 
 
 
-.content1text .child1{
+.content1text .child1first{
     font-family: Roboto-light;
     width: 100%;
     max-width: 284px;
@@ -564,17 +604,6 @@ main{
     line-height: 33px;
     color: #000000;
 
-}
-
-.content1text .child1::before{
-    position: absolute;
-    left: 0;
-    top: 20px;
-    content: "";
-    display: inline-block;
-    background-color: #FFA500;
-    width: 6px;
-    height: 32px;
 }
 
 
@@ -589,7 +618,7 @@ main{
 
 }
 
-.content1text .child3{
+.content1text .child3last{
     font-family: Roboto-Meduim;
     font-weight: 500;
     font-size: 24px;
@@ -608,13 +637,14 @@ main{
     
 }
 
-.content1Icon p{
+.content1Icon span{
     font-family: Roboto-Meduim;
     font-size: 18px;
     font-weight: 500;
     line-height: 40px;
     color: #000000;
 }
+
 
 .content1Icon i{
     color: #FFA500;
@@ -673,31 +703,6 @@ main{
 }
 
 
-.content2text .content2_child1::before{
-    position: absolute;
-    left: 0;
-    top: 20px;
-    content: "";
-    display: inline-block;
-    background-color: #FFA500;
-    width: 6px;
-    height: 32px;
-
-}
-
-
-.content2text .content2_child1{
-    color: #000000;
-    font-family: Roboto-light;
-    width: 100%;
-    max-width: 331px;
-    font-weight: 500;
-    margin-bottom: 30px;
-    font-size: 18px;
-    line-height: 33.81px;
-}
-
-
 .content2text .content2_child2{
     color: #000000;
     font-family: Roboto-Meduim;
@@ -735,7 +740,7 @@ main{
 }
 
 
-.content2Icon p{
+.content2Icon span{
     font-family: Roboto-Meduim;
     font-size: 15px;
     font-weight: 500;
@@ -773,18 +778,6 @@ main{
 
 }
 
-.content3text .content3_child1::before{
-    position: absolute;
-    left: 0;
-    top: 20px;
-    content: "";
-    display: inline-block;
-    background-color: #FFA500;
-    width: 6px;
-    height: 32px;
-}
-
-
 .content3text .content3_child2 {
     font-family: Roboto-Meduim;
     font-weight: 600;
@@ -812,6 +805,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 30px;
     
 }
 
@@ -821,6 +815,7 @@ main{
     font-weight: 500;
     line-height: 40px;
     color: #000000;
+
 }
 
 .content3Icon i{
@@ -833,6 +828,7 @@ main{
     align-items: center;
     gap: 10px;
 }
+
 
 .content3Icon .content3_comment{
     display: flex;
@@ -853,22 +849,32 @@ main{
     margin-top: 30px;
     background-image: url(../img/shpingCreditCart.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    max-width: 777px;
-    height: 100%;
-    max-height: 485px;
+    background-size: cover;
+    height: 400px;
+
+
+
+
+    
+    
 
 }
 
-.container2_content4 .container2_content4text{
+
+
+
+.container2_content4{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 50px;
     align-items: center;
+    
 }
 
-.container2_content4text p{
+.container2_content4 p{
+    position: relative;
+    top: 50px;
     font-family: Roboto-Meduim;
     width: 100%;
     max-width: 746px;
@@ -877,8 +883,10 @@ main{
     line-height: 47px;
 }
 
-.container2_content4text button{
+.container2_content4 button{
     font-family: Roboto-Meduim;
+    position: relative;
+    top: 50px;
     padding: 15px 50px;
     margin-top: 30px;
     background-color: #0336FF;
@@ -931,18 +939,6 @@ main{
 }
 
 
-.content5text .content5_child1::before{
-    position: absolute;
-    left: 0;
-    top: 20px;
-    content: "";
-    display: inline-block;
-    background-color: #FFA500;
-    width: 6px;
-    height: 32px;
-
-}
-
 
 .content5text .content5_child2{
     color: #000000;
@@ -967,10 +963,14 @@ main{
     line-height: 46.64px;
 }
 
-.content5Icon{
+.container2_content5In .content5Icon{
     display: flex;
-    justify-content: space-between;
+    gap: 50px;
     align-items: center;
+    padding: 15px 20px;
+
+
+    
 }
 
 .content5_location{
@@ -993,7 +993,7 @@ main{
 }
 
 
-.content5Icon p{
+.content5Icon span{
     font-family: Roboto-Meduim;
     font-size: 15px;
     font-weight: 500;
@@ -1046,19 +1046,6 @@ main{
 }
 
 
-.content6text .content6_child1::before{
-    position: absolute;
-    left: 0;
-    top: 20px;
-    content: "";
-    display: inline-block;
-    background-color: #FFA500;
-    width: 6px;
-    height: 32px;
-
-}
-
-
 .content6text .content6_child2{
     color: #000000;
     font-family: Roboto-light;
@@ -1082,13 +1069,21 @@ main{
     line-height: 46.64px;
 }
 
-.content6Icon{
+.container2_content6In{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.content6_location{
+.content6Icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 15px 20px;
+}
+
+.container2_content6In .content6_location{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1108,7 +1103,7 @@ main{
 }
 
 
-.content6Icon p{
+.content6Icon span{
     font-family: Roboto-Meduim;
     font-size: 15px;
     font-weight: 500;
@@ -1146,16 +1141,6 @@ main{
 
 }
 
-.content7text .content7_child1::before{
-    position: absolute;
-    left: 0;
-    top: 20px;
-    content: "";
-    display: inline-block;
-    background-color: #FFA500;
-    width: 6px;
-    height: 32px;
-}
 
 
 .content7text .content7_child2 {
@@ -1185,10 +1170,11 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 20px;
     
 }
 
-.content7Icon p{
+.content7Icon span{
     font-family: Roboto-Meduim;
     font-size: 18px;
     font-weight: 500;
@@ -1239,8 +1225,6 @@ main{
 }
 
 
-
-
 .content8text{
     position: relative;
     padding: 20px 30px;
@@ -1259,17 +1243,7 @@ main{
 }
 
 
-.content8text .content8_child1::before{
-    position: absolute;
-    left: 0;
-    top: 20px;
-    content: "";
-    display: inline-block;
-    background-color: #FFA500;
-    width: 6px;
-    height: 32px;
 
-}
 
 
 .content8text .content8_child2{
@@ -1299,6 +1273,8 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 50px;
+    padding: 15px 20px;
 }
 
 .content8_location{
@@ -1321,7 +1297,7 @@ main{
 }
 
 
-.content8Icon p{
+.content8Icon span{
     font-family: Roboto-Meduim;
     font-size: 15px;
     font-weight: 500;
@@ -1329,6 +1305,378 @@ main{
     color: #000000;
     
 }
+
+
+.bgimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-image: url(../img/bgfooter.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 296px;
+
+}
+
+
+
+.button-btn button{
+    padding: 12px 30px;
+    background-color: #0333F1;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+
+.email-addresbtn {
+    display: flex;
+    padding: 50px 30px;
+    gap: 50px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.email-addresbtn p{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    width: 100%;
+    max-width: 474px;
+}
+
+.email-addresbtn span{
+    color: #0333F1;
+}
+
+
+input[type="text"]{
+    position: relative;
+    width: 100%;
+    max-width: 330px;
+    padding: 10px 20px;
+    font-size: 30px;
+    height: 50px;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid #C4C4C4;
+}
+
+
+input[type="text"]::placeholder{
+    position: absolute;
+    font-size: 20px;
+    top:13px;
+    
+}
+
+
+
+
+.btn-email-input{
+    display: flex;
+    gap: 20px;
+}
+
+
+.btn-email-input button{
+    padding: 12px 30px;
+    background-color: #0333F1;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.header-footer{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-top: 1px solid #cdcdcd;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+
+}
+
+
+.header-footerimg{
+    margin: auto;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-footerimg ul{
+    display:  flex;
+    gap: 50px;
+}
+
+.header-footerimg ul li a{
+    font-family: Roboto-Meduim;
+    color: #000000;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+.footer-contnet{
+    background-color: #535353;
+    color: #EEEEEE;
+}
+
+.footerlink{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    padding: 30px 30px;
+    max-width: 1300px;
+}
+
+.footerlink .footer-contnetChild1{
+    max-width: 337px;
+    margin-bottom: 40px;
+}
+
+.footerlink .footer-contnetChild2{
+    max-width: 337px;
+}
+
+.p-conatiner1{
+    margin-right: 20px;
+}
+
+.footer-contnetChild3{
+    max-width: 153px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.p-conatiner2 ul li {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.p-conatiner2 ul li a{
+    color: #EEEEEE;
+}
+
+.linkConatiner3 ul li, .linkConatiner4 ul li {
+    margin-top: 25px;
+}
+
+.linkConatiner3 ul li a, .linkConatiner4 ul li a{
+   color:#EEEEEE;
+}
+
+.mostfootercontent{
+    margin: auto;
+    max-width: 1000px;
+    border-top: 1px solid #EEEEEE;
+    padding-top: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialNetworkIconFooter{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+/* ----------------------------------------------------------------------------------Responisve------------------------------------------------------------- */
+
+
+
+@media  (max-width: 577px) {
+    nav{
+        max-width:fit-content;
+    }
+    .navbar-content{
+        max-width:fit-content ;
+
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .container_1{
+        margin: auto;
+    }
+
+
+    .container_2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container2_content1{
+        margin: auto;
+        max-width: 500px;
+    }
+
+    .container2_content1 img{
+        max-width: 500px;
+    }
+
+    .container2_content2{
+        margin: 5vh auto;
+        flex-direction: column;
+    }
+
+    .container2_content3{
+        margin: auto;
+        max-width: 500px;
+    }
+
+    .container2_content3 img{
+        max-width: 500px;
+    }
+
+    .container2_content4{
+        margin: 5vh auto;
+        max-width: 500px;
+    }
+
+    .container2_content5{
+      margin: 5vh auto;
+      flex-direction: column;
+    }
+
+
+    .container2_content6{
+        margin: 5vh auto;
+        flex-direction: column;
+    }
+
+    .container2_content7{
+        margin: 5vh auto;
+        max-width: 500px;
+    }
+
+    .container2_content7 img{
+        max-width: 500px;
+    }
+
+    .container2_content8{
+        margin: 5vh auto;
+        flex-direction: column;
+    }
+
+
+    .email-addresbtn .inputbtn{
+        flex-direction: column;
+    }
+    .email-addresbtn button{
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .email-addresbtn input[type="text"]{
+        width: 100%;
+        max-width: 800px;
+       
+    }
+
+    .header-footer{
+        margin: auto;
+        max-width: 500px;
+    }
+
+    .mostfootercontent{
+        padding-top: 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+
+}
+
+
+/*------------------------------------------------------------------------------- 768px------------------------------------------------------------------------ */
+
+
+@media (max-width:768px){
+
+    nav{
+        max-width:100%;
+    }
+    .navbar-content{
+        max-width:100% ;
+    }
+
+    .container2_content1{
+        max-width: 700px;
+    }
+
+    .container2_content1 img{
+        max-width: 700px;
+
+    }
+
+    .container2_content3{
+        max-width: 700px;
+    }
+
+    .container2_content3 img{
+        max-width: 700px;
+
+    }
+
+    .container2_content4{
+        max-width: 700px;
+    }
+
+    .container2_content7{
+        max-width: 700px;
+    }
+
+    .container2_content7 img{
+        max-width: 700px;
+
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

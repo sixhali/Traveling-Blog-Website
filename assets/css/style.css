@@ -42,11 +42,11 @@ body{
 }
 
 header{
+    position: relative;
     background-image: url(../img/navbartravelbg.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
     height: fit-content;
     padding: 10px 30px;
 }
@@ -129,14 +129,26 @@ span{
 }
 
 
-.headerinfermation .p3navbarcontnet{
-    position: relative;
-    top: 130px;
+.downarrowimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 30px;
     color: #fff;
+    gap: 30px;
     font-family: Roboto-Meduim;
 
 }
+
+.locationimg{
+    position: absolute;
+    bottom: 0px;
+    right:30px;
+
+
+}
+
 
 .headerinfermation img {
     margin-top: 30px;
@@ -144,46 +156,10 @@ span{
     
 }
 
-.downarrowimg img{
-    position: relative;
-    top: 120px;
-}
-
-.locationimg img{
-    position: relative;
-    top: 20px;
-    left: 600px;
-}
-
-
-/* navbar content ve header responsiv */
-@media (max-width:576px){
-
-    header{
-        max-width: 600px;
-        
-
-    }
-
-    .navbar-content ul {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 12px;
-
-    
-    
-    }
-
-    .locationimg img{
-        position: relative;
-        top: 20px;
-        left: 200px;
-    }
-
-
-    
-
+.container_1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .content_1{
@@ -196,7 +172,7 @@ span{
     width: 100%;
     max-width: 400px;
     box-shadow: 0px 0px 3px;
-    margin-left: 50px;
+
     padding-bottom: 10px;
 }
 
@@ -237,9 +213,7 @@ span{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 50px;
     align-items: center;
-    margin-top: 40px;
     padding-bottom: 30px;
     width: 100%;
     max-width: 400px;
@@ -285,17 +259,14 @@ span{
 
 
 .content_3{
-    margin-left: 50px;
-    width: 100%;
-    max-width: 445px;
-    height: 400px;
 
+    max-width: 400px;
+    height: 400px;
 }
 
 
 .content_3 h3{
     text-align: center;
-    margin-top: 30px;
     padding: 20px 0px;
     background-color: #fff;
     box-shadow: 0px 0px 4px;
@@ -305,7 +276,9 @@ span{
 }
 
 .tblisiGoargiaImg img{
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
+    
 }
 
 .content_3 .tblisiGoargiachild1{
@@ -356,14 +329,13 @@ span{
 }
 
 .content_4{
-    margin-left: 50px;
     width: 100%;
-    max-width: 445px;
+    max-width: 400px;
+    padding: 20px;
 }
 
 .content_4 h3{
     text-align: center;
-    margin-top: 30px;
     padding: 20px 0px;
     background-color: #fff;
     box-shadow: 0px 0px 4px;
@@ -404,8 +376,6 @@ span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
-    margin-left: 50px;
     width: 100%;
     max-width: 408px;
     box-shadow: 0px 0px 3px;
@@ -451,15 +421,14 @@ span{
 
 
 .content_6{
-    margin-left: 50px;
+
     width: 100%;
-    max-width: 445px;
+    max-width: 400px;
 }
 
 .content_6 h3{
     text-align: center;
     font-family: Roboto-Meduim;
-    margin-top: 30px;
     padding: 20px 0px;
     background-color: #fff;
     box-shadow: 0px 0px 4px;
@@ -497,7 +466,6 @@ span{
 }
 
 .content_7{
-    margin-left: 50px;
     width: 100%;
     max-width: 445px;
 }
@@ -505,7 +473,6 @@ span{
 .content_7 h3{
     text-align: center;
     font-family: Roboto-Meduim;
-    margin-top: 30px;
     padding: 20px 0px;
     background-color: #fff;
     margin-bottom: 30px;
@@ -577,7 +544,17 @@ span{
 
 main{
     display: flex;
-    gap: 70px;
+    gap: 50px;
+    margin: auto;
+    width: 100%;
+    max-width: 1300px;
+}
+
+
+.container_2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .container2_content1{
@@ -665,7 +642,6 @@ main{
 }
 
 .container2_content2{
-    margin-top: 40px;
     width: 100%;
     max-width: 374.5px;
     display: flex;
@@ -753,7 +729,6 @@ main{
 
 
 .container2_content3{
-    margin-top: 50px;
     background-color:#FFFFFF;
     height: fit-content;
     box-shadow: 0px 0px 3px;
@@ -846,17 +821,11 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
     background-image: url(../img/shpingCreditCart.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
-
-
-
-
-    
-    
+   
 
 }
 
@@ -867,7 +836,6 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 50px;
     align-items: center;
     
 }
@@ -896,11 +864,9 @@ main{
     color: white;
 }
 
-
 /* container2 content5 */
 
 .container2_content5{
-    margin-top: 40px;
     width: 100%;
     max-width: 374.5px;
     display: flex;
@@ -1007,7 +973,6 @@ main{
 /* container2 content6 */
 
 .container2_content6{
-    margin-top: 40px;
     width: 100%;
     max-width: 374.5px;
     display: flex;
@@ -1116,7 +1081,6 @@ main{
 /* container2 content7 */
 
 .container2_content7{
-    margin-top: 50px;
     background-color:#FFFFFF;
     height: fit-content;
     box-shadow: 0px 0px 3px;
@@ -1205,7 +1169,6 @@ main{
 
 
 .container2_content8{
-    margin-top: 40px;
     width: 100%;
     max-width: 374.5px;
     display: flex;
@@ -1377,8 +1340,6 @@ input[type="text"]::placeholder{
 }
 
 
-
-
 .btn-email-input{
     display: flex;
     gap: 20px;
@@ -1442,7 +1403,7 @@ input[type="text"]::placeholder{
     gap: 50px;
     width: 100%;
     padding: 30px 30px;
-    max-width: 1300px;
+    max-width: 1100px;
 }
 
 .footerlink .footer-contnetChild1{
@@ -1454,9 +1415,6 @@ input[type="text"]::placeholder{
     max-width: 337px;
 }
 
-.p-conatiner1{
-    margin-right: 20px;
-}
 
 .footer-contnetChild3{
     max-width: 153px;
@@ -1468,7 +1426,6 @@ input[type="text"]::placeholder{
 
 .p-conatiner2 ul li {
     margin-top: 20px;
-    margin-right: 20px;
 }
 
 .p-conatiner2 ul li a{
@@ -1485,183 +1442,20 @@ input[type="text"]::placeholder{
 
 .mostfootercontent{
     margin: auto;
-    max-width: 1000px;
     border-top: 1px solid #EEEEEE;
     padding-top: 40px;
     margin-top: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
+
+
 .socialNetworkIconFooter{
-    display: flex;
+    display: flex;;
     gap: 20px;
 }
-
-
-
-/* ----------------------------------------------------------------------------------Responisve------------------------------------------------------------- */
-
-
-
-@media  (max-width: 577px) {
-    nav{
-        max-width:fit-content;
-    }
-    .navbar-content{
-        max-width:fit-content ;
-
-    }
-
-    main{
-        flex-direction: column;
-    }
-
-    .container_1{
-        margin: auto;
-    }
-
-
-    .container_2{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .container2_content1{
-        margin: auto;
-        max-width: 500px;
-    }
-
-    .container2_content1 img{
-        max-width: 500px;
-    }
-
-    .container2_content2{
-        margin: 5vh auto;
-        flex-direction: column;
-    }
-
-    .container2_content3{
-        margin: auto;
-        max-width: 500px;
-    }
-
-    .container2_content3 img{
-        max-width: 500px;
-    }
-
-    .container2_content4{
-        margin: 5vh auto;
-        max-width: 500px;
-    }
-
-    .container2_content5{
-      margin: 5vh auto;
-      flex-direction: column;
-    }
-
-
-    .container2_content6{
-        margin: 5vh auto;
-        flex-direction: column;
-    }
-
-    .container2_content7{
-        margin: 5vh auto;
-        max-width: 500px;
-    }
-
-    .container2_content7 img{
-        max-width: 500px;
-    }
-
-    .container2_content8{
-        margin: 5vh auto;
-        flex-direction: column;
-    }
-
-
-    .email-addresbtn .inputbtn{
-        flex-direction: column;
-    }
-    .email-addresbtn button{
-        margin-top: 20px;
-        margin-left: 50px;
-    }
-
-    .email-addresbtn input[type="text"]{
-        width: 100%;
-        max-width: 800px;
-       
-    }
-
-    .header-footer{
-        margin: auto;
-        max-width: 500px;
-    }
-
-    .mostfootercontent{
-        padding-top: 10px;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-
-
-}
-
-
-/*------------------------------------------------------------------------------- 768px------------------------------------------------------------------------ */
-
-
-@media (max-width:768px){
-
-    nav{
-        max-width:100%;
-    }
-    .navbar-content{
-        max-width:100% ;
-    }
-
-    .container2_content1{
-        max-width: 700px;
-    }
-
-    .container2_content1 img{
-        max-width: 700px;
-
-    }
-
-    .container2_content3{
-        max-width: 700px;
-    }
-
-    .container2_content3 img{
-        max-width: 700px;
-
-    }
-
-    .container2_content4{
-        max-width: 700px;
-    }
-
-    .container2_content7{
-        max-width: 700px;
-    }
-
-    .container2_content7 img{
-        max-width: 700px;
-
-    }
-
-
-
-
-
-
-}
-
 
 
 

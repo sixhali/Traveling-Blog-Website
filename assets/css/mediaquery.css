@@ -1,0 +1,1004 @@
+
+/* ----------------------------------------------------------------------------------Responisve------------------------------------------------------------- */
+
+
+
+
+
+
+/*------------------------------------------------------------------------------- 768px------------------------------------------------------------------------ */
+
+
+
+@media (max-width:1200px){
+
+
+    nav{
+        max-width:fit-content;
+    }
+
+    main{
+    
+        max-width: 1100px;
+        
+    }
+    .navbar-content  ul{
+     justify-content: space-around;
+    }
+
+    .container_1{
+        max-width: 380px;
+    }
+
+    .content_1{
+        padding: 10px 20px;
+    }
+
+    .content_7 .socialNetwork{
+        display: flex;
+        gap: 35px;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 400px;
+        padding-bottom: 30px;
+        justify-content: center; 
+    }
+
+    .tblisiGoargiaImg img{
+        max-width: 380px;
+    }
+
+    .container_2{
+        max-width: 600px;
+    }
+
+    .container2_content1 img{
+        max-width: 600px;
+    }
+    
+
+    .container2_content2{
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .container2_content3 img{
+        max-width: 600px;
+    }
+
+    .container2_content4{
+        margin: auto;
+        max-width: 450px;
+    }
+
+    .container2_content5{
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .container2_content6{
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .container2_content7 img{
+        max-width: 600px;
+    }
+
+
+    .container2_content8{
+        margin: auto;
+        flex-direction: column;
+    }
+
+  
+
+    
+
+
+}
+
+
+@media (max-width:992px){
+
+
+    nav{
+        max-width:fit-content;
+    }
+
+    main{
+        max-width: 900px;
+    }
+    .navbar-content  ul{
+       gap: 50px;
+    }
+
+    .container_1{
+        max-width: 380px;
+    }
+
+    .content_1{
+        padding: 10px 20px;
+    }
+
+    .content_7 .socialNetwork{
+        display: flex;
+        gap: 35px;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 400px;
+        padding-bottom: 30px;
+        justify-content: center; 
+    }
+
+    .tblisiGoargiaImg img{
+        max-width: 380px;
+    }
+
+    .container_2{
+        max-width: 450px;
+    }
+
+    .container2_content1 img{
+        max-width: 450px;
+    }
+    .container2_content2{
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .container2_content3 img{
+        max-width: 450px;
+    }
+
+    .container2_content4{
+        max-width: 450px;
+    }
+
+    .container2_content5{
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .container2_content6{
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .container2_content7 img{
+        max-width: 450px;
+    }
+
+
+    .container2_content8{
+        margin: auto;
+        flex-direction: column;
+    }
+
+  
+
+    
+
+
+}
+
+
+
+
+@media (max-width:768px){
+
+
+    nav{
+        max-width:fit-content;
+    }
+    .navbar-content  ul{
+        display: none;
+    }
+
+    .locationimg{
+        display: none;
+    }
+
+    .headerinfermation .spanP{
+        font-size: 15px;
+
+    }
+
+    .headerinfermation .p2navbarcontnet{
+        font-size: 40px;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .container_1{
+        margin: auto;
+
+    }
+
+    .content_7 .socialNetwork{
+        display: flex;
+        gap: 35px;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 400px;
+        padding-bottom: 30px;
+        justify-content: center; 
+    }
+
+    
+
+
+    .container_2{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .container2_content1{
+        margin: auto;
+        max-width: 450px;
+    }
+
+    .container2_content1 img{
+        max-width: 450px;
+    }
+
+    .container2_content2{
+        margin: 5vh auto;
+        flex-direction: column;
+    }
+
+    .container2_content3{
+        margin: auto;
+        max-width: 450px;
+    }
+
+    .container2_content3 img{
+        max-width: 450px;
+    }
+
+    .container2_content4{
+        margin: 5vh auto;
+        max-width: 450px;
+    }
+
+    .container2_content5{
+      margin: 5vh auto;
+      flex-direction: column;
+    }
+
+
+    .container2_content6{
+        margin: 5vh auto;
+        flex-direction: column;
+    }
+
+    .container2_content7{
+        margin: 5vh auto;
+        max-width: 450px;
+    }
+
+    .container2_content7 img{
+        max-width: 450px;
+    }
+
+    .container2_content8{
+        margin: 5vh auto;
+        flex-direction: column;
+    }
+
+
+    .email-addresbtn .inputbtn{
+        position: relative;
+        flex-direction: column;
+        bottom: 30px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .email-addresbtn button{
+     margin: 30px auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+    .email-addresbtn input[type="text"]{
+        width: 100%;
+        max-width: 800px;
+       
+    }
+
+    .header-footer{
+        margin: auto;
+        max-width: 450px;
+    }
+
+    .footerlink .p-conatiner1{
+        display: none;
+    }
+
+
+    .mostfootercontent{
+        padding-top: 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+
+    .email-addresbtn p{
+        display: none;
+    }
+
+}
+
+@media  (max-width: 576px) {
+
+
+    nav{
+        max-width:fit-content;
+    }
+
+
+    .navbar-content  ul{
+        display: none;
+    }
+
+    .locationimg{
+        display: none;
+    }
+
+    .headerinfermation .spanP{
+        font-size: 15px;
+
+    }
+
+    .headerinfermation .p2navbarcontnet{
+        font-size: 40px;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .container_1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+
+    .content_7 .socialNetwork{
+        display: flex;
+        gap: 35px;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 400px;
+        padding-bottom: 30px;
+        justify-content: center; 
+    }
+
+    
+
+
+    .container_2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .container2_content1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        max-width: 400px;
+    }
+
+    .container2_content1 img{
+        max-width: 400px;
+    }
+
+    .container2_content2{
+        margin: 5vh auto;
+        flex-direction: column;
+    }
+
+    .container2_content3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        max-width: 400px;
+    }
+
+    .container2_content3 img{
+        max-width: 400px
+    }
+
+    .container2_content4{
+        margin: 5vh auto;
+        max-width: 400px;
+    }
+
+    .container2_content5{
+      margin: 5vh auto;
+      flex-direction: column;
+    }
+
+    .container2_content5In img{
+        max-width: 375px;
+    }
+
+
+    .container2_content6{
+        margin: 5vh auto;
+        flex-direction: column;
+        
+    }
+
+    .container2_content6In img{
+        max-width: 375px;
+    }
+
+    .container2_content7{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5vh auto;
+        max-width: 400px;
+    }
+
+    .container2_content7 img{
+        max-width: 400px
+    }
+
+    .content7Icon{
+        display: flex;
+        gap: 30px;
+    }
+
+    .container2_content8{
+        margin: 5vh auto;
+        flex-direction: column;
+    }
+
+    .container2_content8In img{
+        max-width: 375px;
+    }
+
+
+    .email-addresbtn .inputbtn{
+        position: relative;
+        flex-direction: column;
+        bottom: 30px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .email-addresbtn button{
+     margin: 30px auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+    .email-addresbtn input[type="text"]{
+        width: 100%;
+        max-width: 800px;
+       
+    }
+
+    .header-footer{
+        margin: auto;
+        max-width: 400px;
+    }
+
+    .footerlink .p-conatiner1{
+        display: none;
+    }
+
+
+    .mostfootercontent{
+        padding-top: 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+
+    .email-addresbtn p{
+        display: none;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+@media  (max-width: 360px) {
+
+
+    nav{
+        max-width:fit-content;
+    }
+
+
+    .navbar-content  ul{
+        display: none;
+    }
+
+    .locationimg{
+        display: none;
+    }
+
+    .headerinfermation .spanP{
+        font-size: 15px;
+
+    }
+
+    .headerinfermation .p2navbarcontnet{
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .container_1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 300px;
+
+
+    }
+
+    .content_1 img{
+        max-width: 280px;
+    }
+
+    .content_1 p{
+        max-width: 270px;
+    }
+
+    .content_2P-all{
+        max-width: 270px;
+    }
+
+    .tblisiGoargia .tblisiGoargiachild1{
+        font-size: 14px;
+        max-width: 220px;
+    }
+
+    .tblisiGoargia .tblisiGoargiachild2{
+        font-size: 20px;
+        max-width:250px;
+    }
+
+    .content_4 .proje p{
+        font-size: 10px;
+    }
+
+    .content_6 .ProductThatIHaveprojetext p{
+        font-size: 15px;
+    }
+
+    .content_7 .socialNetwork{
+        margin: auto;
+        max-width: 220px;
+    }
+
+
+    .container_2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .container2_content1{
+        margin: auto;
+        max-width: 300px;
+    }
+
+    .container2_content1 img{
+        max-width: 300px;
+    }
+
+    .container2_content1 .content1Icon{
+        flex-direction: column;
+    }
+
+    .container2_content2{
+        margin: 5vh auto;
+        max-width: 300px;
+        flex-direction: column;
+    }
+
+    .container2_content2_1 img{
+        max-width: 300px;
+    }
+
+    .content2Icon{
+        flex-direction: column;
+    }
+
+    .container2_content3{
+        margin: auto;
+        max-width: 300px;
+    }
+
+    .container2_content3 img{
+        max-width: 300px;
+    }
+
+
+    .content3Icon{
+        flex-direction: column;
+    }
+
+    .container2_content4{
+        margin: 5vh auto;
+        max-width: 300px;
+    }
+
+    .container2_content5{
+      margin: 5vh auto;
+      flex-direction: column;
+      max-width: 300px;
+    }
+
+    .container2_content5In img{
+        max-width: 300px;
+    }
+
+    .content5Icon{
+        flex-direction: column;
+    }
+
+
+
+    .container2_content6{
+        margin: 5vh auto;
+        flex-direction: column;
+        max-width: 300px;
+    }
+
+    .container2_content6In img{
+        max-width: 300px;
+    }
+
+    .content6Icon{
+        flex-direction: column;
+    }
+
+
+    .container2_content7{
+        margin: 5vh auto;
+        max-width: 300px;
+    }
+
+    .container2_content7 img{
+        max-width: 300px;
+    }
+
+    .container2_content8{
+        margin: 5vh auto;
+        flex-direction: column;
+        max-width: 300px;
+    }
+
+    .container2_content8 img{
+        max-width: 300px;
+    }
+
+    .content8Icon{
+        flex-direction: column;
+    }
+
+    .email-addresbtn .inputbtn{
+        position: relative;
+        flex-direction: column;
+        bottom: 30px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .email-addresbtn button{
+     margin: 30px auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+    .email-addresbtn input[type="text"]{
+        width: 100%;
+        max-width: 800px;
+       
+    }
+
+    .header-footer{
+        margin: auto;
+        max-width: 250px;
+
+
+    }
+
+    .header-footer img{
+        display: none;
+    }
+
+    .footerlink .p-conatiner1{
+        display: none;
+    }
+
+
+    .mostfootercontent{
+        padding-top: 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+
+    .email-addresbtn p{
+        display: none;
+    }
+
+
+
+
+}
+
+
+@media  (max-width: 320px) {
+
+
+    nav{
+        max-width:fit-content;
+    }
+
+
+    .navbar-content  ul{
+        display: none;
+    }
+
+    .locationimg{
+        display: none;
+    }
+
+    .headerinfermation .spanP{
+        font-size: 15px;
+
+    }
+
+    .headerinfermation .p2navbarcontnet{
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .container_1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 300px;
+
+
+    }
+
+    .content_1 img{
+        max-width: 280px;
+    }
+
+    .content_1 p{
+        max-width: 270px;
+    }
+
+    .content_2P-all{
+        max-width: 270px;
+    }
+
+    .tblisiGoargia .tblisiGoargiachild1{
+        font-size: 14px;
+        max-width: 220px;
+    }
+
+    .tblisiGoargia .tblisiGoargiachild2{
+        font-size: 20px;
+        max-width:250px;
+    }
+
+    .content_4 .proje p{
+        font-size: 10px;
+    }
+
+    .content_6 .ProductThatIHaveprojetext p{
+        font-size: 15px;
+    }
+
+    .content_7 .socialNetwork{
+        margin: auto;
+        max-width: 220px;
+    }
+
+
+    .container_2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .container2_content1{
+        margin: auto;
+        max-width: 300px;
+    }
+
+    .container2_content1 img{
+        max-width: 300px;
+    }
+
+    .container2_content1 .content1Icon{
+        flex-direction: column;
+    }
+
+    .container2_content2{
+        margin: 5vh auto;
+        max-width: 300px;
+        flex-direction: column;
+    }
+
+    .container2_content2_1 img{
+        max-width: 300px;
+    }
+
+    .content2Icon{
+        flex-direction: column;
+    }
+
+    .container2_content3{
+        margin: auto;
+        max-width: 300px;
+    }
+
+    .container2_content3 img{
+        max-width: 300px;
+    }
+
+
+    .content3Icon{
+        flex-direction: column;
+    }
+
+    .container2_content4{
+        margin: 5vh auto;
+        max-width: 300px;
+    }
+
+    .container2_content5{
+      margin: 5vh auto;
+      flex-direction: column;
+      max-width: 300px;
+    }
+
+    .container2_content5In img{
+        max-width: 300px;
+    }
+
+    .content5Icon{
+        flex-direction: column;
+    }
+
+
+
+    .container2_content6{
+        margin: 5vh auto;
+        flex-direction: column;
+        max-width: 300px;
+    }
+
+    .container2_content6In img{
+        max-width: 300px;
+    }
+
+    .content6Icon{
+        flex-direction: column;
+    }
+
+
+    .container2_content7{
+        margin: 5vh auto;
+        max-width: 300px;
+    }
+
+    .container2_content7 img{
+        max-width: 300px;
+    }
+
+    .container2_content8{
+        margin: 5vh auto;
+        flex-direction: column;
+        max-width: 300px;
+    }
+
+    .container2_content8 img{
+        max-width: 300px;
+    }
+
+    .content8Icon{
+        flex-direction: column;
+    }
+
+
+
+    .email-addresbtn .inputbtn{
+        position: relative;
+        flex-direction: column;
+        bottom: 30px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .email-addresbtn button{
+     margin: 30px auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+    .email-addresbtn input[type="text"]{
+        width: 100%;
+        max-width: 800px;
+       
+    }
+
+    .header-footer{
+        margin: auto;
+        max-width: 400px;
+    }
+
+    .footerlink .p-conatiner1{
+        display: none;
+    }
+
+
+    .mostfootercontent{
+        padding-top: 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+
+    .email-addresbtn p{
+        display: none;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+

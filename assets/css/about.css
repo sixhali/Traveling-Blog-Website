@@ -1,0 +1,202 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../font/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-light;
+    src: url(../font/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Meduim;
+    src: url(../font/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-MediumItalic;
+    src: url(../font/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-BoldItalic;
+    src: url(../font/Roboto-BoldItalic.ttf);
+}
+
+/* lato font */
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../font/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato-light;
+    src: url(../font/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: lato-Bold;
+    src: url(../font/Lato-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+body{
+    background-color: #FEFEFE;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+header{
+    position: relative;
+    background-image: url(../img/aboutnovbar.svg);
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 30px;
+}
+
+.navbar-content-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-content-about ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    padding: 0px 10px;
+
+
+}
+
+.navbar-content-about ul li a{
+    color: #FFA500;
+    font-family: Roboto-Meduim;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+}
+
+
+.navbar-content-about ul li:nth-child(2){
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #0333F1;
+}
+
+
+.about-text{
+    color: rgba(255, 255, 255, 1);
+    font-family: lato-Bold;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 76.8px;
+    text-align: center;
+
+}
+
+.navbar-barsIconAbout{
+    display: none;
+}
+
+
+.about-text-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.about-text-container .text1{
+    position: relative;
+}
+
+.about-text-container .text1 p{
+    position: absolute;
+    bottom: 50px;
+    left: 120px;
+    max-width: 470px;
+    font-family: Roboto-Bold;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 47px;
+    color:rgba(78, 75, 102, 1);
+}
+
+.text1 span{
+   color: black;
+}
+
+.text1 a{
+    color: #ffa500;
+}
+
+.about-text-container .text2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 640px;
+    font-family: lato-Bold;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: justify;
+
+}
+
+.text2 p:nth-child(1){
+    max-width: 600px;
+}
+
+
+.aboutPeopleBg{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.Peoplebg{
+    background-image: url(../img/aboutbgpeople.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    
+}
+
+
+.aboutPeopleBgText{
+    font-family: lato-Bold;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: justify;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1300px;
+}

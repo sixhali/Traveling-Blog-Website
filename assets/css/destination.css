@@ -1,0 +1,222 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../font/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-light;
+    src: url(../font/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Meduim;
+    src: url(../font/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-MediumItalic;
+    src: url(../font/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-BoldItalic;
+    src: url(../font/Roboto-BoldItalic.ttf);
+}
+
+/* lato font */
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../font/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato-light;
+    src: url(../font/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: lato-Bold;
+    src: url(../font/Lato-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --box-shadow-1: 0px 2.77px 6.23px 0px rgba(0, 0, 0, 0.0197);
+    --box-shadow-2: 0px 6.65px 14.96px 0px rgba(0, 0, 0, 0.0283);
+    --box-shadow-3: 0px 12.52px 28.17px 0px rgba(0, 0, 0, 0.035);
+    --box-shadow-4: 0px 22.34px 50.26px 0px rgba(0, 0, 0, 0.0417);
+    --box-shadow-5: 0px 41.78px 94px 0px rgba(0, 0, 0, 0.0503);
+    --box-shadow-6: 0px 100px 225px 0px rgba(0, 0, 0, 0.07);
+    --box-shadow-combined: var(--box-shadow-1), var(--box-shadow-2), var(--box-shadow-3), var(--box-shadow-4), var(--box-shadow-5), var(--box-shadow-6);
+}
+
+
+
+body{
+    background-color: #FEFEFE;
+}
+
+
+.destination-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+header{
+    position: relative;
+    background-image: url(../img/destinationbg.svg);
+    background-position: center;
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 30px;
+}
+
+
+.navbar-content-destination{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-content-destination ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+
+
+}
+
+.navbar-content-destination ul li a{
+    color: #FFA500;
+    font-family: Roboto-Meduim;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+}
+
+
+.navbar-content-destination ul li:nth-child(3){
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #0333F1;
+}
+
+
+.destination-text{
+    color: rgba(255, 255, 255, 1);
+    font-family: lato-Bold;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 76.8px;
+    text-align: center;
+
+}
+
+.navbar-barsIconAbout{
+    display: none;
+}
+
+.navbar-barsIcondestination{
+    display: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.destination-text-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.destination-text-container .text1{
+    position: relative;
+}
+
+.destination-text-container .text1 p{
+    position: absolute;
+    bottom: 50px;
+    left: 120px;
+    max-width: 470px;
+    font-family: Roboto-Bold;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 47px;
+    color:rgba(78, 75, 102, 1);
+}
+
+
+
+.text1 span{
+   color: black;
+}
+
+.text1 a{
+    color: #ffa500;
+}
+
+.destination-text-container .text2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 640px;
+    font-family: lato-Bold;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: justify;
+
+}
+
+.text2 p:nth-child(1){
+    max-width: 600px;
+}
+
+
+table{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+table td{
+    border: 2px solid rgba(196, 196, 196, 1);
+    text-align: center;
+    padding: 10px 50px;
+    font-family: lato-Bold;
+    font-weight: 700;
+    font-size: 24px;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+
+table td:hover{
+    background-color: #0333F1;
+    color: #ffffff;
+}

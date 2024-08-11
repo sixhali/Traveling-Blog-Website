@@ -1,0 +1,1135 @@
+
+/* ----------------------------------------------------------------------------------Responisve------------------------------------------------------------- */
+
+
+
+
+
+
+/*------------------------------------------------------------------------------- 768px------------------------------------------------------------------------ */
+
+
+@media (max-width:1400px){
+
+    .navbar-content{
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .navbar-content- ul{
+       max-width: 1000px;
+    }
+
+
+    .text-container{
+        display: flex;
+        gap: 30px;
+    }
+
+    .text-container .text1 p{
+        position: absolute;
+        bottom: 50px;
+        left: 80px;
+        max-width: 500px;
+        font-family: Roboto-Bold;
+        font-weight: 400;
+        font-size:30px;
+        line-height: 40px;
+        color:rgba(78, 75, 102, 1);
+    }
+
+    .text-container .text2 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 500px;
+        font-family: lato-Bold;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: justify;
+    
+    }
+
+    table{
+        width: 85%;
+        max-width: 1400px;
+        margin: auto;
+    }
+    
+    table td{
+        padding: 20px 30px;
+    }
+
+}
+
+@media (max-width:1200px){
+
+
+    .navbar-content-Contact{
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .navbar-content-Contact ul{
+       max-width: 800px;
+    }
+
+    .Contact-Input-container{
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .Contact-Input-container p{
+        font-size: 14px;
+        line-height: 25px;
+        text-align: center;
+        height: 50px;
+    }
+
+
+
+    input[type="text"]{
+        position: relative;
+        margin: auto;
+        width: 100%;
+        max-width: 500px;
+        padding: 10px 20px;
+        font-size: 14px;
+        height: 50px;
+        outline: none;
+        border-radius: 8px;
+        border: 1px solid #C4C4C4;
+       
+    }
+
+    input[type="text"]::placeholder{
+        position: absolute;
+        font-size: 15px;
+        top:15px;
+    }
+
+
+
+    .Contact-Input-container .form_1,.Contact-Input-container .form_2{
+        display: flex;
+        gap: 10px;
+    }
+
+    .textareaBtn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+       
+    }
+       
+    .textareaBtn textarea{
+        max-width: 1000px;
+        resize: none;
+        outline: none;
+        border: 1px solid #C4C4C4;
+        padding: 20px 30px;
+        height: 212px;
+        font-family: lato-Bold;
+        border-radius: 8px;
+        font-size: 16px;
+        
+    }
+
+    .email-addresbtnContact{
+        flex-direction: column;
+    }
+
+    .email-addresbtnContact p{
+        text-align: center;
+    }
+    
+
+    .email-addresbtnContact .inputbtn{
+        position: relative;
+        flex-direction: column;
+        bottom: -10px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .email-addresbtnContact button{
+     margin: 30px auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+
+    .email-addresbtnContact input[type="text"]{
+        width: 100%;
+        max-width: 800px;
+       
+    }
+
+    .header-footerContact{
+        margin: auto;
+        max-width: 250px;
+
+
+    }
+
+    .header-footerimg{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .header-footerimg img{
+        max-width: 200px;
+        margin: auto;
+    }
+
+    .p-conatiner1{
+        display: none;
+    }
+    
+
+
+    .footerlinkContact{
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .linksContact{
+        gap: 150px;
+    }
+
+
+    .mostfootercontentContact{
+        padding-top: 10px;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+
+    .mostfootercontentContact span{
+        max-width: 450px;
+    }
+
+
+}
+
+
+@media (max-width:992px){
+
+
+    .navbar-content-Contact{
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .navbar-content-Contact ul{
+       display: none;
+    }
+
+    .navbar-barsIconContact{
+        display: inline-block;
+        cursor: pointer;
+        color: #ffff;
+        font-size: 25px;
+    }
+
+
+
+    .Contact-Input-container{
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .Contact-Input-container p{
+        font-size: 14px;
+        line-height: 25px;
+        text-align: center;
+        height: 50px;
+    }
+
+
+
+    input[type="text"]{
+        position: relative;
+        margin: auto;
+        width: 100%;
+        max-width: 500px;
+        padding: 10px 20px;
+        font-size: 14px;
+        height: 50px;
+        outline: none;
+        border-radius: 8px;
+        border: 1px solid #C4C4C4;
+       
+    }
+
+    input[type="text"]::placeholder{
+        position: absolute;
+        font-size: 15px;
+        top:15px;
+    }
+
+
+
+    .Contact-Input-container .form_1,.Contact-Input-container .form_2{
+        display: flex;
+        gap: 10px;
+    }
+
+    .textareaBtn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+       
+    }
+       
+    .textareaBtn textarea{
+        max-width: 600px;
+        resize: none;
+        outline: none;
+        border: 1px solid #C4C4C4;
+        padding: 20px 30px;
+        height: 212px;
+        font-family: lato-Bold;
+        border-radius: 8px;
+        font-size: 16px;
+        
+    }
+    .email-addresbtnContact{
+        flex-direction: column;
+    }
+
+    .email-addresbtnContact p{
+        text-align: center;
+    }
+    
+
+    .email-addresbtnContact .inputbtn{
+        position: relative;
+        flex-direction: column;
+        bottom: -10px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .email-addresbtnContact button{
+     margin: 30px auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+
+    .email-addresbtnContact input[type="text"]{
+        width: 100%;
+        max-width: 800px;
+       
+    }
+
+    .header-footerContact {
+        margin: auto;
+        max-width: 250px;
+
+
+    }
+
+    .header-footerimg{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .header-footerimg img{
+        max-width: 100px;
+        margin: auto;
+    }
+
+    .footerlinkContact {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .p-conatiner1{
+        display: none;
+    }
+
+
+    .mostfootercontentContact {
+        padding-top: 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+
+    .linksContact {
+        gap: 50px;
+    }
+
+
+    .mostfootercontentContact  span{
+        max-width: 250px;
+    }
+
+}
+
+
+
+
+@media (max-width:768px){
+
+    .navbar-content-Contact{
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+
+    .navbar-content-Contact ul{
+        display: none;
+    }
+
+    .navbar-barsIconContact{
+        display: inline-block;
+        cursor: pointer;
+        color: #ffff;
+        font-size: 25px;
+    }
+
+
+    .locationimg{
+        display: none;
+    }
+
+    .Contact-text{
+        font-size: 30px;
+
+    
+    }
+
+    .Contact-Input-container{
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .Contact-Input-container p{
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        height: 50px;
+    }
+
+
+
+    input[type="text"]{
+        position: relative;
+        margin: auto;
+        width: 100%;
+        max-width: 300px;
+        padding: 10px 20px;
+        font-size: 14px;
+        height: 50px;
+        outline: none;
+        border-radius: 8px;
+        border: 1px solid #C4C4C4;
+       
+    }
+
+    input[type="text"]::placeholder{
+        position: absolute;
+        font-size: 15px;
+        top:15px;
+    }
+
+
+
+    .Contact-Input-container .form_1,.Contact-Input-container .form_2{
+        display: flex;
+        gap: 10px;
+    }
+
+    .textareaBtn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+       
+    }
+       
+    .textareaBtn textarea{
+        max-width: 400px;
+        resize: none;
+        outline: none;
+        border: 1px solid #C4C4C4;
+        padding: 20px 30px;
+        height: 212px;
+        font-family: lato-Bold;
+        border-radius: 8px;
+        font-size: 14px;
+        
+    }
+
+    .email-addresbtnContact p{
+        display: none;
+    }
+
+    .textoverlay img{
+        max-width:350px;
+    }
+
+
+    .email-addresbtnContact{
+        flex-direction: column;
+    }
+
+    .email-addresbtnContact p{
+        text-align: center;
+    }
+    
+
+    .email-addresbtnContact .inputbtn{
+        position: relative;
+        flex-direction: column;
+        bottom: -10px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .email-addresbtnContact button{
+     margin: 30px auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+
+    .email-addresbtnContact input[type="text"]{
+        width: 100%;
+        max-width: 800px;
+       
+    }
+
+    .header-footerAbout{
+        margin: auto;
+        max-width: 250px;
+
+
+    }
+
+    .header-footerimg{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .header-footerimg img{
+        max-width: 100px;
+        margin: auto;
+    }
+
+    .footerlinkAbout{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .p-conatiner1{
+        display: none;
+    }
+
+
+    .mostfootercontentAbout{
+        padding-top: 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+
+    .linksAbout{
+        gap: 50px;
+    }
+
+
+    .mostfootercontentAbout span{
+        max-width: 250px;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+
+    .travellogoimgContact img{
+        max-width: 100px;
+    }
+     
+
+    .navbar-content-Contact{
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+
+    
+    .navbar-content-Contact ul{
+        display: none;
+    }
+    
+    .navbar-barsIconContact{
+        display: inline-block;
+        cursor: pointer;
+        color: #ffff;
+        font-size: 25px;
+    }
+
+    .locationimg{
+        display: none;
+    }
+
+    .Contact-text{
+        font-size: 30px;
+
+    
+    }
+
+    .Contact-Input-container{
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .Contact-Input-container p{
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        height: 50px;
+    }
+
+
+
+    input[type="text"]{
+        position: relative;
+        margin: auto;
+        width: 100%;
+        max-width: 300px;
+        padding: 10px 20px;
+        font-size: 14px;
+        height: 50px;
+        outline: none;
+        border-radius: 8px;
+        border: 1px solid #C4C4C4;
+       
+    }
+
+    input[type="text"]::placeholder{
+        position: absolute;
+        font-size: 15px;
+        top:15px;
+    }
+
+
+
+    .Contact-Input-container .form_1,.Contact-Input-container .form_2{
+        display: flex;
+        gap: 10px;
+    }
+
+    .textareaBtn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+       
+    }
+       
+    .textareaBtn textarea{
+        max-width: 300px;
+        resize: none;
+        outline: none;
+        border: 1px solid #C4C4C4;
+        padding: 20px 30px;
+        height: 212px;
+        font-family: lato-Bold;
+        border-radius: 8px;
+        font-size: 14px;
+        
+    }
+
+    .textoverlay img{
+        max-width:220px;
+    }
+
+    .Contact-text-container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+   
+
+    .email-addresbtnContact{
+        flex-direction: column;
+    }
+
+    .email-addresbtnContact p{
+        text-align: center;
+    }
+    
+
+    .email-addresbtnContact .inputbtn{
+        position: relative;
+        flex-direction: column;
+        bottom: -10px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .email-addresbtnContact button{
+     margin: 30px auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+
+    .email-addresbtnContact input[type="text"]{
+        width: 100%;
+        max-width: 800px;
+       
+    }
+
+    .email-addresbtnContact{
+        margin: auto;
+        max-width: 250px;
+
+
+    }
+
+    .header-footerimg{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .header-footerimg img{
+        max-width: 100px;
+        margin: auto;
+    }
+
+    .footerlinkContact{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .p-conatiner1{
+        display: none;
+    }
+
+
+    .mostfootercontentContact{
+        padding-top: 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+
+    .linksContact{
+        gap: 50px;
+    }
+
+
+    .mostfootercontentContact span{
+        max-width: 250px;
+    }
+
+    .email-addresbtnContact p{
+        display: none;
+    }
+
+}
+
+
+
+@media (max-width: 360px) {
+
+    .travellogoimgContact img{
+        max-width: 100px;
+    }
+     
+
+    .navbar-content-Contact{
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+
+    
+    .navbar-content-Contact ul{
+        display: none;
+    }
+    
+    .navbar-barsIconContact{
+        display: inline-block;
+        cursor: pointer;
+        color: #ffff;
+        font-size: 25px;
+    }
+
+    .locationimg{
+        display: none;
+    }
+
+    .Contact-text{
+        font-size: 30px;
+
+    
+    }
+
+    .Contact-Input-container{
+        max-width: 200px;
+        margin: auto;
+    }
+
+    .Contact-Input-container p{
+        font-size: 10px;
+    }
+
+
+
+    input[type="text"]{
+        position: relative;
+        margin: auto;
+        width: 100%;
+        max-width: 100px;
+        padding: 10px 20px;
+        font-size: 14px;
+        height: 50px;
+        outline: none;
+        border-radius: 8px;
+        border: 1px solid #C4C4C4;
+       
+    }
+
+    input[type="text"]::placeholder{
+        position: absolute;
+        font-size: 15px;
+        top:15px;
+    }
+
+
+
+    .Contact-Input-container .form_1,.Contact-Input-container .form_2{
+        display: flex;
+        gap: 0px;
+    }
+
+    .textareaBtn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+       
+    }
+       
+    .textareaBtn textarea{
+        max-width: 250px;
+        resize: none;
+        outline: none;
+        border: 1px solid #C4C4C4;
+        padding: 20px 30px;
+        height: 212px;
+        font-family: lato-Bold;
+        border-radius: 8px;
+        font-size: 14px;
+        
+    }
+
+    .email-addresbtnContact.inputbtn{
+        position: relative;
+        flex-direction: column;
+        bottom: 30px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .email-email-addresbtnContact button{
+     margin: 30px auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+    .email-addresbtnContact input[type="text"]{
+        width: 100%;
+        max-width: 800px;
+       
+    }
+
+    .email-addresbtnContact p{
+        display: none;
+    }
+
+    .header-footerContact{
+        margin: auto;
+        max-width: 250px;
+
+
+    }
+
+    .header-footerimg{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .header-footerimg img{
+        max-width: 100px;
+        margin: auto;
+    }
+
+    .footerlinkContact{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .p-conatiner1{
+        display: none;
+    }
+
+
+    .mostfootercontentContact{
+        padding-top: 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+
+    .mostfootercontentContact span{
+        max-width: 250px;
+    }
+
+
+    
+
+  
+
+}
+
+
+@media (max-width: 320px) {
+
+    .travellogoimgContact img{
+        max-width: 100px;
+    }
+     
+
+    .navbar-content-Contact{
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+
+    
+    .navbar-content-Contact ul{
+        display: none;
+    }
+    
+    .navbar-barsIconContact{
+        display: inline-block;
+        cursor: pointer;
+        color: #ffff;
+        font-size: 25px;
+    }
+
+    .locationimg{
+        display: none;
+    }
+
+    .Contact-text{
+        font-size: 30px;
+    }
+
+    .Contact-Input-container{
+        max-width: 200px;
+        margin: auto;
+    }
+
+    .Contact-Input-container p{
+        font-size: 10px;
+    }
+
+
+
+    input[type="text"]{
+        position: relative;
+        margin: auto;
+        width: 100%;
+        max-width: 100px;
+        padding: 10px 20px;
+        font-size: 14px;
+        height: 50px;
+        outline: none;
+        border-radius: 8px;
+        border: 1px solid #C4C4C4;
+       
+    }
+
+    input[type="text"]::placeholder{
+        position: absolute;
+        font-size: 15px;
+        top:15px;
+    }
+
+
+
+    .Contact-Input-container .form_1,.Contact-Input-container .form_2{
+        display: flex;
+        gap: 0px;
+    }
+
+    .textareaBtn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+       
+    }
+       
+    .textareaBtn textarea{
+        max-width: 250px;
+        resize: none;
+        outline: none;
+        border: 1px solid #C4C4C4;
+        padding: 20px 30px;
+        height: 212px;
+        font-family: lato-Bold;
+        border-radius: 8px;
+        font-size: 14px;
+        
+    }
+    
+
+    .textoverlay img{
+        max-width:180px;
+    }
+
+    .Contact-text-container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    
+
+    .email-addresbtnContact .inputbtn{
+        position: relative;
+        flex-direction: column;
+        bottom: 30px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .email-addresbtnContact button{
+     margin: 30px auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+    .email-addresbtnContact input[type="text"]{
+        width: 100%;
+        max-width: 800px;
+       
+    }
+
+    .header-footerContact{
+        margin: auto;
+        max-width: 250px;
+
+
+    }
+    .header-footerimg{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .header-footerimg img{
+        max-width: 100px;
+        margin: auto;
+    }
+
+    .footerlinkContact{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .p-conatiner1{
+        display: none;
+    }
+
+
+    .mostfootercontentContact{
+        padding-top: 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+
+    .mostfootercontentContact span{
+        max-width: 250px;
+    }
+
+    .travel-box{
+        max-width: 250px;
+    }
+
+    .travel-box img{
+        max-width: 250px;
+    }
+    
+
+  
+
+
+
+
+}
+
+
+
+

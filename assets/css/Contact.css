@@ -1,0 +1,465 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../font/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-light;
+    src: url(../font/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Meduim;
+    src: url(../font/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-MediumItalic;
+    src: url(../font/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-BoldItalic;
+    src: url(../font/Roboto-BoldItalic.ttf);
+}
+
+/* lato font */
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../font/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato-light;
+    src: url(../font/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: lato-Bold;
+    src: url(../font/Lato-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --box-shadow-1: 0px 2.77px 6.23px 0px rgba(0, 0, 0, 0.0197);
+    --box-shadow-2: 0px 6.65px 14.96px 0px rgba(0, 0, 0, 0.0283);
+    --box-shadow-3: 0px 12.52px 28.17px 0px rgba(0, 0, 0, 0.035);
+    --box-shadow-4: 0px 22.34px 50.26px 0px rgba(0, 0, 0, 0.0417);
+    --box-shadow-5: 0px 41.78px 94px 0px rgba(0, 0, 0, 0.0503);
+    --box-shadow-6: 0px 100px 225px 0px rgba(0, 0, 0, 0.07);
+    --box-shadow-combined: var(--box-shadow-1), var(--box-shadow-2), var(--box-shadow-3), var(--box-shadow-4), var(--box-shadow-5), var(--box-shadow-6);
+}
+
+
+
+body{
+    background-color: #FEFEFE;
+}
+
+
+.Contact-Container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+header{
+    position: relative;
+    background-image: url(../img/TravelContact.svg.svg);
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 30px;
+}
+
+.navbar-content-Contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-content-Contact ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    padding: 0px 10px;
+
+
+}
+
+.navbar-content-Contact ul li a{
+    color: #FFA500;
+    font-family: Roboto-Meduim;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+}
+
+
+.navbar-content-Contact ul li:nth-child(5){
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #0333F1;
+}
+
+
+.Contact-text{
+    color: rgba(255, 255, 255, 1);
+    font-family: lato-Bold;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 76.8px;
+    text-align: center;
+
+}
+
+.navbar-barsIconContact{
+    display: none;
+}
+
+
+.Contact-text-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.Contact-text-container .text1{
+    position: relative;
+}
+
+.Contact-text-container .text1 p{
+    position: absolute;
+    bottom: 50px;
+    left: 120px;
+    max-width: 470px;
+    font-family: Roboto-Bold;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 47px;
+    color:rgba(78, 75, 102, 1);
+}
+
+
+
+.text1 span{
+   color: black;
+}
+
+.text1 a{
+    color: #ffa500;
+}
+
+.Contact-text-container .text2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 640px;
+    font-family: lato-Bold;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: justify;
+
+}
+
+.text2 p:nth-child(1){
+    max-width: 600px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.Contact-Input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.Contact-Input-container p{
+    font-family: Roboto-Meduim;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+}
+
+.Contact-Input-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.Contact-Input-container .form_1,.Contact-Input-container .form_2{
+    display: flex;
+    gap: 50px;
+}
+
+
+input[type="text"]{
+ position: relative;
+ width: 100%;
+ max-width: 330px;
+ padding: 10px 20px;
+ font-size: 30px;
+ height: 50px;
+ outline: none;
+ border-radius: 8px;
+ border: 1px solid #C4C4C4;
+
+}
+
+
+input[type="text"]::placeholder{
+ position: absolute;
+ font-size: 20px;
+ top:13px;
+}
+
+.textareaBtn{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ gap: 30px;
+
+}
+
+.textareaBtn textarea{
+ max-width: 854px;
+ resize: none;
+ outline: none;
+ border: 1px solid #C4C4C4;
+ padding: 20px 30px;
+ height: 212px;
+ font-family: lato-Bold;
+ border-radius: 8px;
+ font-size: 20px;
+ 
+}
+
+.textareaBtn button{
+ padding: 8px 30px;
+ max-width: 124px;
+ background-color: #0333F1;
+ border: none;
+ margin: auto;
+ color: #ffffff;
+ border-radius: 8px;
+ cursor: pointer;
+}
+
+
+
+.bgimgContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-image: url(../img/Contact_Bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 296px;
+
+}
+
+
+.button-btnContact button{
+    padding: 12px 30px;
+    background-color: #32479b;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+
+.email-addresbtnContact{
+    display: flex;
+    padding: 50px 30px;
+    gap: 50px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.email-addresbtnContact p{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    width: 100%;
+    max-width: 474px;
+}
+
+.email-addresbtnContact span{
+    color: #0333F1;
+}
+
+
+input[type="text"]{
+    position: relative;
+    width: 100%;
+    max-width: 330px;
+    padding: 10px 20px;
+    font-size: 30px;
+    height: 50px;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid #C4C4C4;
+}
+
+
+input[type="text"]::placeholder{
+    position: absolute;
+    font-size: 20px;
+    top:13px;
+}
+
+.btn-email-inputContact{
+    display: flex;
+    gap: 20px;
+}
+
+
+.btn-email-inputContact button{
+    padding: 12px 30px;
+    background-color: #0333F1;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.header-footerContact{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-top: 1px solid #cdcdcd;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+
+}
+
+
+.header-footerimg{
+    margin: auto;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.header-footerimg ul{
+    display:  flex;
+    gap: 50px;
+}
+
+.header-footerimg ul li a{
+    font-family: Roboto-Meduim;
+    color: #000000;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+.footer-contnetContact{
+    background-color: #535353;
+    color: #EEEEEE;
+}
+
+.footerlinkContact{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    padding: 30px 30px;
+    max-width: 1100px;
+}
+
+.footerlinkContact .footer-contnetChild1{
+    max-width: 337px;
+    margin-bottom: 40px;
+}
+
+.footerlinkContact .footer-contnetChild2{
+    max-width: 337px;
+}
+
+
+.footer-contnetChild3{
+    max-width: 153px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.p-conatiner2 ul li {
+    margin-top: 20px;
+}
+
+.p-conatiner2 ul li a{
+    color: #EEEEEE;
+}
+
+.linkConatiner3 ul li, .linkConatiner4 ul li {
+    margin-top: 25px;
+}
+
+.linkConatiner3 ul li a, .linkConatiner4 ul li a{
+   color:#EEEEEE;
+}
+
+.linksContact{
+    display: flex;
+    gap: 50px;
+}
+
+.mostfootercontentContact{
+    margin: auto;
+    border-top: 1px solid #EEEEEE;
+    padding-top: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.socialNetworkIconFooter{
+    display: flex;;
+    gap: 20px;
+}
+

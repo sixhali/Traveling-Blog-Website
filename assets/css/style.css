@@ -1455,10 +1455,42 @@ input[type="text"]::placeholder{
 }
 
 
+.linksContact{
+    display: flex;
+    gap: 30px;
+}
+
 
 .socialNetworkIconFooter{
     display: flex;;
     gap: 20px;
+}
+
+
+
+/* open navbar bars icon */
+
+
+
+
+
+
+.navbar-barsIcon-links{
+    background-color: #C4C4C4;
+    height: 40vh;
+    padding: 10px 20px;
+    border: 2px solid red ;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar-barsIcon-links a {
+    font-family: Roboto-Meduim;
 }
 
 

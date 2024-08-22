@@ -14,6 +14,7 @@
     .navbar-content{
         justify-content: space-around;
         align-items: center;
+        
     }
 
     .navbar-content- ul{
@@ -71,7 +72,7 @@
     }
 
     .navbar-content-Contact ul{
-       max-width: 800px;
+       max-width: 1000px;
     }
 
     .Contact-Input-container{
@@ -223,21 +224,20 @@
 @media (max-width:992px){
 
 
+   
     .navbar-content-Contact{
-        justify-content: space-around;
+        justify-content: space-evenly;
+        margin: auto;
         align-items: center;
+        max-width: 750px;
+      
     }
 
-    .navbar-content-Contact ul{
-       display: none;
+
+    .navbar-content-Contact  ul{
+        gap: 50px;
     }
 
-    .navbar-barsIconContact{
-        display: inline-block;
-        cursor: pointer;
-        color: #ffff;
-        font-size: 25px;
-    }
 
 
 

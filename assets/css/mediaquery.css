@@ -91,6 +91,17 @@
         flex-direction: column;
     }
 
+    
+    .bgimg{
+        max-width: 100%;
+    }
+
+    .header-footer{
+        margin: auto;
+        max-width: 700px;
+
+    }
+
   
 
     
@@ -104,11 +115,17 @@
 
     nav{
         max-width:fit-content;
+        
     }
 
     main{
         max-width: 900px;
     }
+
+    .locationimg{
+        display: none;
+    }
+
     .navbar-content  ul{
        gap: 50px;
     }
@@ -136,11 +153,11 @@
     }
 
     .container_2{
-        max-width: 450px;
+        max-width: 400px;
     }
 
     .container2_content1 img{
-        max-width: 450px;
+        max-width: 400px;
     }
     .container2_content2{
         margin: auto;
@@ -148,7 +165,8 @@
     }
 
     .container2_content3 img{
-        max-width: 450px;
+        max-width: 400px;
+
     }
 
     .container2_content4{
@@ -166,7 +184,7 @@
     }
 
     .container2_content7 img{
-        max-width: 450px;
+        max-width: 400px;
     }
 
 
@@ -175,6 +193,58 @@
         flex-direction: column;
     }
 
+    .bgimg{
+        max-width: 100%;
+    }
+
+    .header-footer{
+        margin: auto;
+        max-width: 700px;
+
+    }
+    .header-footerimg{
+        display: flex;
+        gap: 30px;
+    }
+
+    .header-footerimg img{
+        max-width: 250px;
+    }    
+
+    .footerlink{
+     display: flex;
+
+     justify-content: space-evenly;
+        
+    }
+
+    
+    .linksContact{
+        display: flex;
+        gap: 50px;
+    }
+
+    .p-conatiner1{
+        display: none;
+    }
+
+
+    .mostfootercontent{
+        padding-top: 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+
+
+
+    .travel-box{
+        max-width: 250px;
+    }
+
+    .travel-box img{
+        max-width: 250px;
+    }
   
 
     
@@ -191,14 +261,31 @@
     nav{
         max-width:fit-content;
     }
+
+    .navbar-content {
+        max-width: 650px;
+        margin: auto;
+    }
     .navbar-content  ul{
         display: none;
     }
     .navbar-barsIcon{
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: fit-content;
         cursor: pointer;
         color: #ffff;
-        font-size: 36px;
+        font-size: 20px;
+    }
+    
+    .travellogoimg img{
+        position: relative;
+        bottom:120px;
+        max-width: 100px;
+
     }
 
     .locationimg{
@@ -318,12 +405,30 @@
        
     }
 
-    .header-footer{
-        margin: auto;
-        max-width: 450px;
+    .header-footerimg{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
     }
 
-    .footerlink .p-conatiner1{
+    .header-footerimg img{
+        max-width: 250px;
+    }    
+
+    .footerlink{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    
+    .linksContact{
+        display: flex;
+        gap: 50px;
+    }
+
+    .p-conatiner1{
         display: none;
     }
 
@@ -335,9 +440,18 @@
     }
     
 
-    .email-addresbtn p{
-        display: none;
+    .mostfootercontent span{
+        max-width: 250px;
     }
+
+    .travel-box{
+        max-width: 250px;
+    }
+
+    .travel-box img{
+        max-width: 250px;
+    }
+
 
 }
 
@@ -347,6 +461,12 @@
     nav{
         max-width:fit-content;
     }
+    
+
+    .navbar-content{
+        max-width: 450px;
+        margin: auto;
+    }
 
 
     .navbar-content  ul{
@@ -354,12 +474,23 @@
     }
 
     .navbar-barsIcon{
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: fit-content;
         cursor: pointer;
         color: #ffff;
-        font-size: 30px;
+        font-size: 20px;
     }
+    
+    .travellogoimg img{
+        position: relative;
+        bottom:120px;
+        max-width: 100px;
 
+    }
 
     .locationimg{
         display: none;
@@ -533,6 +664,54 @@
         display: none;
     }
 
+    .header-footerimg{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .header-footerimg img{
+        width: 100px;
+    }
+
+    .footerlink{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    
+    .linksContact{
+        display: flex;
+        gap: 50px;
+    }
+
+    .p-conatiner1{
+        display: none;
+    }
+
+
+    .mostfootercontent{
+        padding-top: 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+
+    .mostfootercontent span{
+        max-width: 250px;
+    }
+
+    .travel-box{
+        max-width: 250px;
+    }
+
+    .travel-box img{
+        max-width: 250px;
+    }
+
+
 
 
 
@@ -556,12 +735,23 @@
     }
 
     .navbar-barsIcon{
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: fit-content;
         cursor: pointer;
         color: #ffff;
         font-size: 20px;
     }
 
+    .travellogoimg img{
+        position: relative;
+        bottom:120px;
+        max-width: 100px;
+
+    }
 
     .locationimg{
         display: none;
@@ -754,18 +944,30 @@
        
     }
 
-    .header-footer{
-        margin: auto;
-        max-width: 250px;
-
-
+    .header-footerimg{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
     }
 
-    .header-footer img{
-        display: none;
+    .header-footerimg img{
+        width: 100px;
     }
 
-    .footerlink .p-conatiner1{
+    .footerlink{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    
+    .linksContact{
+        display: flex;
+        gap: 30px;
+    }
+
+    .p-conatiner1{
         display: none;
     }
 
@@ -777,8 +979,16 @@
     }
     
 
-    .email-addresbtn p{
-        display: none;
+    .mostfootercontent span{
+        max-width: 250px;
+    }
+
+    .travel-box{
+        max-width: 250px;
+    }
+
+    .travel-box img{
+        max-width: 250px;
     }
 
 
@@ -793,14 +1003,30 @@
     nav{
         max-width:fit-content;
     }
+    
+    .travellogoimg img{
+        position: relative;
+        bottom:120px;
+        max-width: 100px;
 
+    }
+
+    .navbar-content{
+        display: flex;
+  
+    }
 
     .navbar-content  ul{
         display: none;
     }
 
     .navbar-barsIcon{
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: fit-content;
         cursor: pointer;
         color: #ffff;
         font-size: 20px;
@@ -977,7 +1203,6 @@
     }
 
 
-
     .email-addresbtn .inputbtn{
         position: relative;
         flex-direction: column;
@@ -986,6 +1211,7 @@
         align-items: center;
 
     }
+
     .email-addresbtn button{
      margin: 30px auto;
      display: flex;
@@ -998,13 +1224,19 @@
         max-width: 800px;
        
     }
-
-    .header-footer{
-        margin: auto;
-        max-width: 400px;
+    
+    .footerlink{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .linksContact{
+        display: flex;
+        gap: 30px;
     }
 
-    .footerlink .p-conatiner1{
+    .p-conatiner1{
         display: none;
     }
 
@@ -1016,12 +1248,17 @@
     }
     
 
-    .email-addresbtn p{
-        display: none;
+    .mostfootercontent span{
+        max-width: 250px;
     }
 
+    .travel-box{
+        max-width: 250px;
+    }
 
-
+    .travel-box img{
+        max-width: 250px;
+    }
 
 }
 

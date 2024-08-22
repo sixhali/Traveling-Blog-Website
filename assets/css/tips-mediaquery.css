@@ -237,21 +237,16 @@
 
 
     .navbar-content-tips{
-        justify-content: space-around;
+        justify-content: space-evenly;
+        margin: auto;
         align-items: center;
+        max-width: 700px;
     }
 
-    .navbar-content-tips ul{
-       display: none;
-    }
 
-    .navbar-barsIcontips{
-        display: inline-block;
-        cursor: pointer;
-        color: #ffff;
-        font-size: 25px;
+    .navbar-content-tips  ul{
+        gap: 50px;
     }
-
 
 
     .tips-text-container{

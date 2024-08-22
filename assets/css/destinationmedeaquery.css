@@ -330,7 +330,7 @@
        
     }
 
-    .header-footerdestination {
+    .header-footerdestination{
         margin: auto;
         max-width: 250px;
 
@@ -346,36 +346,35 @@
     }
 
     .header-footerimg img{
-        max-width: 100px;
+        max-width: 200px;
         margin: auto;
-    }
-
-    .footerlinkdestination {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        
     }
 
     .p-conatiner1{
         display: none;
     }
+    
 
 
-    .mostfootercontentdestination {
+    .footerlinkdestination{
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .linksdestination{
+        gap: 150px;
+    }
+
+
+    .mostfootercontentdestination{
         padding-top: 10px;
         flex-direction: column;
-        gap: 20px;
+        gap: 40px;
     }
     
 
-    .linksdestination {
-        gap: 50px;
-    }
-
-
-    .mostfootercontentdestination  span{
-        max-width: 250px;
+    .mostfootercontentdestination span{
+        max-width: 450px;
     }
 
 }
@@ -484,7 +483,7 @@
         display: none;
     }
 /* 
-    .aboutPeopleBg{
+    .destinationPeopleBg{
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -497,7 +496,7 @@
         
     }
 
-    .aboutPeopleBgText{
+    .destinationPeopleBgText{
         font-size: 13px;
         line-height: 35px;
         gap: 30px;
@@ -582,13 +581,13 @@
         max-width:350px;
     }
 
-    .about-text-container_2{
+    .destination-text-container_2{
         display: flex;
         flex-direction: column;
         gap: 30px;
     }
 
-    .about-text-container_2 .text1 p{
+    .destination-text-container_2 .text1 p{
         position: absolute;
         bottom: 35px;
         left: 100px;
@@ -600,7 +599,7 @@
         color:rgba(78, 75, 102, 1);
     }
 
-    .about-text-container_2 .text2 {
+    .destination-text-container_2 .text2 {
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -651,7 +650,7 @@
        
     }
 
-    .header-footerAbout{
+    .header-footerdestination{
         margin: auto;
         max-width: 250px;
 
@@ -671,7 +670,7 @@
         margin: auto;
     }
 
-    .footerlinkAbout{
+    .footerlinkdestination{
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -683,19 +682,19 @@
     }
 
 
-    .mostfootercontentAbout{
+    .mostfootercontentdestination{
         padding-top: 10px;
         flex-direction: column;
         gap: 20px;
     }
     
 
-    .linksAbout{
+    .linksdestination{
         gap: 50px;
     }
 
 
-    .mostfootercontentAbout span{
+    .mostfootercontentdestination span{
         max-width: 250px;
     } */
 
@@ -895,7 +894,7 @@
 
 @media (max-width: 360px) {
 
-    .navbar-content-about{
+    .navbar-content-destination{
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -1075,7 +1074,7 @@
 
 @media (max-width: 320px) {
 
-    .travellogoimgabout img{
+    .travellogoimgdestination img{
         max-width: 100px;
     }
      

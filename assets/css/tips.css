@@ -482,3 +482,7 @@ input[type="text"]::placeholder{
     color: #000;
     font-family: Roboto-Meduim;
 }
+
+#links{
+    display: none;
+}

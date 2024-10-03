@@ -650,16 +650,16 @@ input[type="text"]::placeholder{
     padding: 50px 20px;
     width: 100%;
     max-width: 250px;
-    height: 110vh;
+    height: 100vh;
     border: 2px solid yellowgreen ;
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 40px;
     align-items: center;
 }
 
 .navbar-barsIcon-links i{
-    margin-top: 90px;
+    margin-top: 60px;
     font-size: 30px;
     color: #000000;
 }

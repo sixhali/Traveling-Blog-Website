@@ -1475,10 +1475,10 @@ input[type="text"]::placeholder{
     right: 0;
     bottom: 0px;
     background-color: #C4C4C4;
-    padding: 50px;
+    padding: 50px 20px;
     width: 100%;
     max-width: 250px;
-    height: 100vh;
+    height: 110vh;
     border: 2px solid yellowgreen ;
     display: flex;
     flex-direction: column;
@@ -1487,6 +1487,7 @@ input[type="text"]::placeholder{
 }
 
 .navbar-barsIcon-links i{
+    margin-top: 50px;
     font-size: 30px;
     color: #000000;
 }

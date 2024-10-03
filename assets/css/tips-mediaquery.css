@@ -427,13 +427,17 @@
         display: none;
     }
 
-    .navbar-barsIcontips{
-        display: inline-block;
+    .navbar-barsIcon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: fit-content;
         cursor: pointer;
         color: #ffff;
-        font-size: 25px;
+        font-size: 20px;
     }
-
 
     .locationimg{
         display: none;
@@ -637,11 +641,16 @@
         display: none;
     }
     
-    .navbar-barsIcontips{
-        display: inline-block;
+    .navbar-barsIcon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: fit-content;
         cursor: pointer;
         color: #ffff;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .locationimg{
@@ -811,11 +820,16 @@
         display: none;
     }
     
-    .navbar-barsIcontips{
-        display: inline-block;
+    .navbar-barsIcon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: fit-content;
         cursor: pointer;
         color: #ffff;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .locationimg{
@@ -941,168 +955,7 @@
         max-width: 250px;
     }
 
-
-    
-
-  
-
 }
-
-
-@media (max-width: 320px) {
-
-    .travellogoimgtips img{
-        max-width: 100px;
-    }
-     
-
-    .navbar-content-tips{
-        width: 100%;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-
-    
-    .navbar-content-tips ul{
-        display: none;
-    }
-    
-    .navbar-barsIcontips{
-        display: inline-block;
-        cursor: pointer;
-        color: #ffff;
-        font-size: 25px;
-    }
-
-    .locationimg{
-        display: none;
-    }
-
-    .tips-text{
-        font-size: 30px;
-
-    
-    }
-
-    .textoverlay img{
-        max-width:180px;
-    }
-
-    .tips-text-container{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .tips-text-container .text1 p{
-        position: absolute;
-        bottom: 12px;
-        left: 10px;
-        width: 180px;
-        font-family: Roboto-Bold;
-        margin: auto;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 13px;
-        color:rgba(78, 75, 102, 1);
-    }
-
-    .tips-text-container .text2 {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        max-width: 180px;
-        font-family: lato-Bold;
-        font-size: 10px;
-        line-height: 12px;
-        margin: auto;
-        text-align: justify;
-    
-    }
-
-
-    .email-addresbtntips .inputbtn{
-        position: relative;
-        flex-direction: column;
-        bottom: 30px;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .email-addresbtntips button{
-     margin: 30px auto;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-    }
-
-    .email-addresbtntips input[type="text"]{
-        width: 100%;
-        max-width: 800px;
-       
-    }
-
-    .header-footertips{
-        margin: auto;
-        max-width: 250px;
-
-
-    }
-
-    .header-footerimg{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-    }
-
-    .header-footerimg img{
-        max-width: 100px;
-        margin: auto;
-    }
-
-    .footerlinktips{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        
-    }
-
-    .p-conatiner1{
-        display: none;
-    }
-
-
-    .mostfootercontenttips{
-        padding-top: 10px;
-        flex-direction: column;
-        gap: 20px;
-    }
-    
-
-    .mostfootercontenttips span{
-        max-width: 250px;
-    }
-
-    .travel-box{
-        max-width: 250px;
-    }
-
-    .travel-box img{
-        max-width: 250px;
-    }
-    
-
-  
-
-
-
-
-}
-
 
 
 

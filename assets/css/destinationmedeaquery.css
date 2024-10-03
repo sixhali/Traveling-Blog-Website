@@ -394,13 +394,17 @@
         display: none;
     }
 
-    .navbar-barsIcondestination{
-        display: inline-block;
+    .navbar-barsIcon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: fit-content;
         cursor: pointer;
         color: #ffff;
-        font-size: 25px;
+        font-size: 20px;
     }
-
 
     .locationimg{
         display: none;
@@ -482,223 +486,6 @@
     .email-addresbtndestination p{
         display: none;
     }
-/* 
-    .destinationPeopleBg{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        margin-top: 40px;
-    }
-
-    .Peoplebg{
-        background-size: cover;
-        height: 40vh;
-        
-    }
-
-    .destinationPeopleBgText{
-        font-size: 13px;
-        line-height: 35px;
-        gap: 30px;
-        max-width:300px;
-    }
-
-    .textconent_1{
-        flex-direction: column;
-    }
-
-    .textconent_1 .text_1 h5{
-        font-size: 20px;
-        line-height: 10px;
-
-    }
-    
-    .textconent_1 .text_1 p{
-        max-width: 300px;
-        font-size: 13px;
-        line-height: 20px;
-
-    }
-     
-    .text_2 .text_2H{
-        font-size: 20px;
-        line-height: 40px;
-    }
-    
-    .text_2 .text_2P {
-        max-width: 300px;
-        font-size: 13px;
-        line-height: 20px;
-    }
-
-    .textconent_2{
-        flex-direction: column;
-
-    }
-
-
-    .textconent_2 .textconent2_text_1 h5{
-        font-size: 20px;
-        line-height: 10px;
-
-    }
-    
-    .textconent_2 .textconent2_text_1 p{
-        max-width: 300px;
-        font-size: 13px;
-        line-height: 20px;
-
-    }
-     
-    .textconent2_text_2 .text_2H{
-        font-size: 20px;
-        line-height: 40px;
-    }
-    
-    .textconent2_text_2 .text_2P {
-        max-width: 300px;
-        font-size: 13px;
-        line-height: 20px;
-    }
-
-    .sponsor-content{
-        background-color: #ededed;
-        display: flex;
-        flex-wrap: wrap;
-        padding: 30px 0px;
-        gap: 20px;
-        cursor: pointer;
-    }
-
-    .sponsor-content img{
-        max-width: 180px;
-        margin: auto;
-    } */
-
-    /*----- */
-
-    /* .textoverlay img{
-        max-width:350px;
-    }
-
-    .destination-text-container_2{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .destination-text-container_2 .text1 p{
-        position: absolute;
-        bottom: 35px;
-        left: 100px;
-        max-width: 180px;
-        font-family: Roboto-Bold;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 15px;
-        color:rgba(78, 75, 102, 1);
-    }
-
-    .destination-text-container_2 .text2 {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        max-width: 300px;
-        font-family: lato-Bold;
-        font-size: 10px;
-        line-height: 15px;
-        text-align: justify;
-    
-    }
-
-    .personal-box{
-        max-width:300px;
-        padding: 40px 30px;
-        gap: 20px;
-    }
-
-    .email-addresbtndestination{
-        flex-direction: column;
-    }
-
-    .email-addresbtndestination p{
-        text-align: center;
-    }
-    
-
-    .email-addresbtndestination .inputbtn{
-        position: relative;
-        flex-direction: column;
-        bottom: -10px;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-
-    .email-addresbtndestination button{
-     margin: 30px auto;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-    }
-
-
-    .email-addresbtndestination input[type="text"]{
-        width: 100%;
-        max-width: 800px;
-       
-    }
-
-    .header-footerdestination{
-        margin: auto;
-        max-width: 250px;
-
-
-    }
-
-    .header-footerimg{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-    }
-
-    .header-footerimg img{
-        max-width: 100px;
-        margin: auto;
-    }
-
-    .footerlinkdestination{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        
-    }
-
-    .p-conatiner1{
-        display: none;
-    }
-
-
-    .mostfootercontentdestination{
-        padding-top: 10px;
-        flex-direction: column;
-        gap: 20px;
-    }
-    
-
-    .linksdestination{
-        gap: 50px;
-    }
-
-
-    .mostfootercontentdestination span{
-        max-width: 250px;
-    } */
-
-
 }
 
 @media (max-width: 576px) {
@@ -714,13 +501,17 @@
         display: none;
     }
 
-    .navbar-barsIcondestination{
-        display: inline-block;
+    .navbar-barsIcon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: fit-content;
         cursor: pointer;
         color: #ffff;
-        font-size: 25px;
+        font-size: 20px;
     }
-
 
     .locationimg{
         display: none;
@@ -882,12 +673,6 @@
     .email-addresbtndestination p{
         display: none;
     }
-
-  
-    
-
-
-
 }
 
 
@@ -912,13 +697,16 @@
         display: none;
     }
 
-    .navbar-barsIcondestination{
-        position: relative;
-        left: 10px;
-        display: inline-block;
+    .navbar-barsIcon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: fit-content;
         cursor: pointer;
         color: #ffff;
-        font-size: 25px;
+        font-size: 20px;
     }
 
 
@@ -1067,178 +855,6 @@
     
 
     
-
-
-}
-
-
-@media (max-width: 320px) {
-
-    .travellogoimgdestination img{
-        max-width: 100px;
-    }
-     
-
-    .navbar-content-destination{
-        width: 100%;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-
-    
-    .navbar-content-destination ul{
-        display: none;
-    }
-    
-    .navbar-barsIcondestination{
-        display: inline-block;
-        cursor: pointer;
-        color: #ffff;
-        font-size: 25px;
-    }
-
-    .locationimg{
-        display: none;
-    }
-
-    .destination-text{
-        font-size: 30px;
-
-    
-    }
-
-    .textoverlay img{
-        max-width:100px;
-    }
-
-    .destination-text-container{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .destination-text-container .text1 p{
-        position: absolute;
-        bottom: 10px;
-        left: 40px;
-        max-width: 30px;
-        font-family: Roboto-Bold;
-        font-weight: 400;
-        font-size: 2px;
-        line-height: 5px;
-        color:rgba(78, 75, 102, 1);
-    }
-
-    .destination-text-container .text2 {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        max-width: 100px;
-        font-family: lato-Bold;
-        font-size: 5px;
-        line-height: 10px;
-        text-align: justify;
-    
-    }
-
-    table{
-        width: 60%;
-        max-width: 1400px;
-        margin: auto;
-    }
-    
-    table,td{
-        display: flex;
-        flex-direction: column;
-        margin-top: 10px;
-        align-items: center;
-        padding: 20px 30px;
-    }
-
-    .travel-Box img{
-        max-width: 250px;
-    }
-
-    .travel-Box-text{
-        max-width: 230px;
-        bottom: 50px;
-    }
-
-    .travel-Box-text-child{
-        flex-direction: column;
-    }
-  
-
- 
-    .email-addresbtndestination .inputbtn{
-        position: relative;
-        flex-direction: column;
-        bottom: 30px;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .email-addresbtndestination button{
-     margin: 30px auto;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-    }
-
-    .email-addresbtndestination input[type="text"]{
-        width: 100%;
-        max-width: 800px;
-       
-    }
-
-    .header-footerdestination{
-        margin: auto;
-        max-width: 250px;
-
-
-    }
-
-    .header-footerimg{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-    }
-
-    .header-footerimg img{
-        max-width: 100px;
-        margin: auto;
-    }
-
-    .footerlinkdestination{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        
-    }
-
-    .p-conatiner1{
-        display: none;
-    }
-
-
-    .mostfootercontentdestination{
-        padding-top: 10px;
-        flex-direction: column;
-        gap: 20px;
-    }
-    
-
-    .mostfootercontentdestination span{
-        max-width: 250px;
-    }
-
-  
-
-
 
 
 }

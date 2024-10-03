@@ -131,7 +131,7 @@ header{
 
 }
 
-.navbar-barsIcontips{
+.navbar-barsIcon{
     display: none;
 }
 
@@ -442,4 +442,43 @@ input[type="text"]::placeholder{
 .socialNetworkIconFooter{
     display: flex;;
     gap: 20px;
+}
+
+
+/* open navbar bars icon */
+
+.navbar-barsIcon{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.navbar-barsIcon-links{
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    bottom: 0px;
+    background-color: #C4C4C4;
+    padding: 50px;
+    width: 100%;
+    max-width: 250px;
+    height: 100vh;
+    border: 2px solid yellowgreen ;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+
+
+.navbar-barsIcon-links i{
+    font-size: 30px;
+    color: #000000;
+}
+
+.navbar-barsIcon-links a {
+    padding: 10px;
+    font-size: 20px;
+    color: #000;
+    font-family: Roboto-Meduim;
 }

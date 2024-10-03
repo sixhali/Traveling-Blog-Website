@@ -693,13 +693,17 @@
         display: none;
     }
 
-    .navbar-barsIconAbout{
-        display: inline-block;
+    .navbar-barsIcon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: fit-content;
         cursor: pointer;
         color: #ffff;
-        font-size: 30px;
+        font-size: 20px;
     }
-    
 
     .locationimg{
         display: none;
@@ -984,11 +988,16 @@
         display: none;
     }
 
-    .navbar-barsIconAbout{
-        display: inline-block;
+    .navbar-barsIcon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: fit-content;
         cursor: pointer;
         color: #ffff;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .locationimg{
@@ -1278,11 +1287,16 @@
         display: none;
     }
 
-    .navbar-barsIconAbout{
-        display: inline-block;
+    .navbar-barsIcon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: fit-content;
         cursor: pointer;
         color: #ffff;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .locationimg{
@@ -1539,277 +1553,4 @@
 
 
 }
-
-
-@media (max-width: 320px) {
-
-    nav{
-        max-width:fit-content;
-    }
-    
-    .navbar-content-about ul{
-        display: none;
-    }
-
-    .navbar-barsIconAbout{
-        display: inline-block;
-        cursor: pointer;
-        color: #ffff;
-        font-size: 25px;
-    }
-
-    .locationimg{
-        display: none;
-    }
-
-    .about-text{
-        font-size: 30px;
-
-    
-    }
-
-    .textoverlay img{
-        max-width:100px;
-    }
-
-    .about-text-container{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .about-text-container .text1 p{
-        position: absolute;
-        bottom: 10px;
-        left: 40px;
-        max-width: 30px;
-        font-family: Roboto-Bold;
-        font-weight: 400;
-        font-size: 2px;
-        line-height: 5px;
-        color:rgba(78, 75, 102, 1);
-    }
-
-    .about-text-container .text2 {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        max-width: 100px;
-        font-family: lato-Bold;
-        font-size: 5px;
-        line-height: 10px;
-        text-align: justify;
-    
-    }
-
-    .aboutPeopleBg{
-        display: flex;
-        flex-direction: column;
-        gap: 0px;
-        margin-top: 10px;
-    }
-
-    .Peoplebg{
-        background-size: cover;
-        background-position: center;
-        height: 40vh;
-        
-    }
-
-    .aboutPeopleBgText{
-        font-size: 10px;
-        line-height: 30px;
-        gap: 30px;
-        max-width: 250px;
-    }
-
-    .textconent_1{
-        flex-direction: column;
-    }
-
-    .textconent_1 .text_1 h5{
-        font-size: 15px;
-        line-height: 10px;
-
-    }
-    
-    .textconent_1 .text_1 p{
-        max-width: 200px;
-        font-size: 10px;
-        line-height: 20px;
-
-    }
-     
-    .text_2 .text_2H{
-        font-size: 15px;
-        line-height: 40px;
-    }
-    
-    .text_2 .text_2P {
-        max-width: 200px;
-        font-size: 10px;
-        line-height: 20px;
-    }
-
-    .textconent_2{
-        flex-direction: column;
-
-    }
-
-
-    .textconent_2 .textconent2_text_1 h5{
-        font-size: 15px;
-        line-height: 10px;
-
-    }
-    
-    .textconent_2 .textconent2_text_1 p{
-        max-width: 200px;
-        font-size: 10px;
-        line-height: 20px;
-
-    }
-     
-    .textconent2_text_2 .text_2H{
-        font-size: 15px;
-        line-height: 40px;
-    }
-    
-    .textconent2_text_2 .text_2P {
-        max-width: 200px;
-        font-size: 10px;
-        line-height: 20px;
-    }
-
-    .sponsor-content{
-        background-color: #ededed;
-        display: flex;
-        flex-direction: column;
-        padding: 30px 0px;
-        gap: 30px;
-        cursor: pointer;
-    }
-
-    .sponsor-content img{
-        max-width: 150px;
-        margin: auto;
-    }
-
-
-    /* ---- */
-    
-    .textoverlay img{
-        max-width:100px;
-    }
-
-    .about-text-container_2{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .about-text-container_2 .text1 p{
-        position: absolute;
-        bottom: 10px;
-        left: 40px;
-        max-width: 30px;
-        font-family: Roboto-Bold;
-        font-weight: 400;
-        font-size: 2px;
-        line-height: 5px;
-        color:rgba(78, 75, 102, 1);
-    }
-
-    .about-text-container_2 .text2 {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        max-width: 100px;
-        font-family: lato-Bold;
-        font-size: 5px;
-        line-height: 10px;
-        text-align: justify;
-    
-    }
-
-    .personal-box{
-        max-width:250px;
-        padding: 40px 30px;
-        gap: 20px;
-    }
-
-    .email-addresbtnAbout .inputbtn{
-        position: relative;
-        flex-direction: column;
-        bottom: 30px;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .email-addresbtnAbout button{
-     margin: 30px auto;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-    }
-
-    .email-addresbtnAbout input[type="text"]{
-        width: 100%;
-        max-width: 800px;
-       
-    }
-
-    .header-footerAbout{
-        margin: auto;
-        max-width: 250px;
-
-
-    }
-
-    .header-footerimg{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-    }
-
-    .header-footerimg img{
-        max-width: 100px;
-        margin: auto;
-    }
-
-    .footerlinkAbout{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        
-    }
-
-    .p-conatiner1{
-        display: none;
-    }
-
-
-    .mostfootercontentAbout{
-        padding-top: 10px;
-        flex-direction: column;
-        gap: 20px;
-    }
-    
-
-    .mostfootercontentAbout span{
-        max-width: 250px;
-    }
-
-  
-
-
-
-
-}
-
-
-
 
